@@ -1,0 +1,8 @@
+{
+  "wallet_address": "0x...",
+  "display_name": null,
+  "optional_identifiers": {
+    "email_hash": null,
+    "student_id_hash": null
+  }
+}
