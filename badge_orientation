@@ -1,0 +1,21 @@
+badge_orientation/
+  README.md
+  INSTITUTIONAL_AFFILIATION_STATEMENT.md
+  LICENSE
+  badge.json
+  requirements.json
+  evidence/
+    artifacts/
+      orientation_notes.md
+    attestations/
+      reviewer_attestation.json
+  integrity.json
+  revocation.json
+  rubric/
+    RUBRIC.md
+    SCORING.md
+  scripts/
+    build_metadata.sh
+  .github/
+    workflows/
+      validate.yml
