@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+title: "Goldstonian Concordance Bible (GCB) — SydTek University Campus for TCG.world"
+message: "If you use this repository, please cite it."
+type: software
+authors:
+  - family-names: "Goldston"
+    given-names: "Justin"
+    name-suffix: "PhD"
+repository-code: "https://github.com/<ORG>/<REPO>"
+license: "CC-BY-4.0"
+keywords:
+  - Goldstonian Concordance Bible
+  - SydTek University
+  - metaverse campus
+  - TCG.world
+  - on-chain credential
+  - doctrine engine
