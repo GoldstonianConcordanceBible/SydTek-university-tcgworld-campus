@@ -1,0 +1,59 @@
+{
+  "credential_id": "gcb-tcg-badge-mwf-000001",
+  "credential_type": "badge",
+  "program_name": "GCB Campus in TCG.world",
+  "program_version": "v0.3.0",
+  "issuer": {
+    "name": "SydTek University",
+    "entity_type": "educational_initiative",
+    "repository": "https://github.com/<ORG>/<REPO>"
+  },
+  "recipient": {
+    "wallet_address": "0x0000000000000000000000000000000000000000",
+    "display_name": null,
+    "optional_identifiers": {
+      "email_hash": null,
+      "student_id_hash": null
+    }
+  },
+  "issued_at": "2026-02-23T00:00:00Z",
+  "requirements": [
+    {
+      "id": "q003_mirror_water_fire",
+      "type": "quest",
+      "title": "Mirror → Water → Fire Method",
+      "minimum_score": 8,
+      "rubric_version": "v1.0",
+      "completed": true
+    }
+  ],
+  "evidence": [
+    {
+      "type": "artifact",
+      "title": "Tri-fold Method Memo",
+      "pointer": "repo://gcb-tcgworld-campus/onchain/attestations/mwf_memo_000001.json",
+      "content_hash": "sha256:REPLACE_ME",
+      "submitted_at": "2026-02-23T00:00:00Z"
+    },
+    {
+      "type": "review_record",
+      "title": "Reviewer Rubric",
+      "pointer": "repo://gcb-tcgworld-campus/onchain/attestations/mwf_review_000001.json",
+      "content_hash": "sha256:REPLACE_ME",
+      "submitted_at": "2026-02-23T00:00:00Z"
+    }
+  ],
+  "revocation": null,
+  "integrity": {
+    "hash_alg": "sha256",
+    "metadata_hash": "sha256:REPLACE_ME",
+    "signatures": [
+      {
+        "signer_role": "reviewer",
+        "signer_id": "maintainer:REPLACE_ME",
+        "signature": "0xREPLACE_ME",
+        "signed_at": "2026-02-23T00:00:00Z"
+      }
+    ]
+  }
+}
