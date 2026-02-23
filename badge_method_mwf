@@ -1,0 +1,17 @@
+badge_method_mwf/
+  README.md
+  INSTITUTIONAL_AFFILIATION_STATEMENT.md
+  LICENSE
+  badge.json
+  requirements.json
+  evidence/
+    artifacts/
+      tri_fold_method_memo.md
+      mwf_application_case_study.md
+      mwf_checklist.json
+  integrity.json
+  revocation.json
+  rubric/
+    RUBRIC.md
+    EXAMPLES.md
+  .github/workflows/validate.yml
