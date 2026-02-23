@@ -1,0 +1,21 @@
+badge_capstone/
+  README.md
+  INSTITUTIONAL_AFFILIATION_STATEMENT.md
+  LICENSE
+  badge.json
+  requirements.json
+  evidence/
+    artifacts/
+      capstone_summary.md
+      capstone_deliverables_index.json
+    review_record/
+      review_record.json
+    attestations/
+      reviewer_attestation.json
+    pr_merge/
+      pr_merge.json
+  integrity.json
+  revocation.json
+  rubric/
+    RUBRIC.md
+  .github/workflows/validate.yml
