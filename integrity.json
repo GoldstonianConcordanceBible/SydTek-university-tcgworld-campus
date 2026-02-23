@@ -1,0 +1,12 @@
+{
+  "hash_alg": "sha256",
+  "metadata_hash": "sha256:...",
+  "signatures": [
+    {
+      "signer_role": "reviewer",
+      "signer_id": "maintainer:<github_handle>",
+      "signature": "0x...",
+      "signed_at": "2026-02-23T00:00:00Z"
+    }
+  ]
+}
