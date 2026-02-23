@@ -1,0 +1,13 @@
+bundle_gcb_tcgworld_certificate/
+  README.md
+  INSTITUTIONAL_AFFILIATION_STATEMENT.md
+  LICENSE
+  certificate.json
+  requirements.json
+  evidence/
+    artifacts/
+      certificate_packet.md
+      badge_refs.json
+  integrity.json
+  revocation.json
+  .github/workflows/validate.yml
