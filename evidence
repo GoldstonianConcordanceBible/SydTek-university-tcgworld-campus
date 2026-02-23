@@ -1,0 +1,7 @@
+{
+  "type": "artifact",
+  "title": "Orientation Notes",
+  "pointer": "repo://badge_orientation/evidence/artifacts/orientation_notes.md",
+  "content_hash": "sha256:...",
+  "submitted_at": "2026-02-23T00:00:00Z"
+}
