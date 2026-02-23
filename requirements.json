@@ -1,0 +1,10 @@
+[
+  {
+    "id": "q001_orientation",
+    "type": "quest",
+    "title": "Orientation",
+    "minimum_score": 8,
+    "rubric_version": "v1.0",
+    "completed": true
+  }
+]
