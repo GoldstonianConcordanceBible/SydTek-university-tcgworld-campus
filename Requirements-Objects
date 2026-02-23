@@ -1,0 +1,8 @@
+{
+  "id": "q003_mirror_water_fire",
+  "type": "quest",
+  "title": "Mirror → Water → Fire Method",
+  "minimum_score": 8,
+  "rubric_version": "v1.0",
+  "completed": true
+}
