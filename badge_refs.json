@@ -1,0 +1,6 @@
+{
+  "badge_orientation": "repo://badge_orientation/badge.json",
+  "badge_concordance_navigator": "repo://badge_concordance_navigator/badge.json",
+  "badge_method_mwf": "repo://badge_method_mwf/badge.json",
+  "badge_capstone": "repo://badge_capstone/badge.json"
+}
