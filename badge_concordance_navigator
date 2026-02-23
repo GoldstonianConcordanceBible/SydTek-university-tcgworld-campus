@@ -1,0 +1,17 @@
+badge_concordance_navigator/
+  README.md
+  INSTITUTIONAL_AFFILIATION_STATEMENT.md
+  LICENSE
+  badge.json
+  requirements.json
+  evidence/
+    artifacts/
+      concordance_navigation_demo.md
+      crosslink_map.json
+    pr_merge/
+      pr_merge.json
+  integrity.json
+  revocation.json
+  rubric/
+    RUBRIC.md
+  .github/workflows/validate.yml
