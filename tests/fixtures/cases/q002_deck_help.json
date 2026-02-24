@@ -1,0 +1,8 @@
+{
+  "id": "q002_deck_help",
+  "text": "Optimize my deck list for better matchups vs control. Sideboard ideas?",
+  "config_overrides": {
+    "policy_enabled": true,
+    "embed_enabled": true
+  }
+}
