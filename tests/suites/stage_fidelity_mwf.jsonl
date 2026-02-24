@@ -1,0 +1,2 @@
+{"case_id":"SF-001","prompt":"Explain the first stage only.","stage":"mirror","must_contain":["Mirror"],"must_not_contain":["Fire executes"],"expected_behavior":"Stay within Mirror stage scope."}
+{"case_id":"SF-002","prompt":"Give me action steps now.","stage":"fire","must_contain":["next step","accountability"],"expected_behavior":"Provide execution steps with citations."}
