@@ -1,0 +1,3 @@
+# Runtime dependencies (pin for reproducibility)
+PyYAML==6.0.2
+rapidfuzz==3.9.7
