@@ -1,0 +1,51 @@
+version: 1
+
+# Actions: allow | rewrite | block | escalate
+# Severity: 0.0–1.0 (1.0 = highest risk)
+
+global:
+  default_action: "allow"
+  default_severity: 0.0
+
+routes:
+  general:
+    allowed_actions: ["allow"]
+    notes: "Normal completion."
+
+  deck_help:
+    allowed_actions: ["allow"]
+    notes: "Gameplay/deck building support."
+
+  community_mod:
+    allowed_actions: ["allow", "escalate"]
+    notes: "Help user report, document, and follow platform rules."
+
+  policy_review:
+    allowed_actions: ["rewrite", "escalate"]
+    notes: "Remove manipulation/guarantee language; provide safe rewrite."
+
+  policy_review_strict:
+    allowed_actions: ["rewrite", "block", "escalate"]
+    notes: "High sensitivity: guarantee + money context. Strong rewrite or block if needed."
+
+categories:
+  guarantees:
+    base_severity: 0.70
+    default_action: "rewrite"
+
+  manipulation:
+    base_severity: 0.55
+    default_action: "rewrite"
+
+  compliance:
+    base_severity: 0.85
+    default_action: "escalate"
+
+context_escalators:
+  # If guarantee phrases and money context are both present, bump severity
+  guarantee_plus_money:
+    categories_required: ["guarantees"]
+    signal: "money_context_near_policy_anchor"
+    severity_bump: 0.20
+    force_route: "policy_review_strict"
+    force_action: "rewrite"
