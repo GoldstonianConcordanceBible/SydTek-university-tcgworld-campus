@@ -1,0 +1,8 @@
+{
+  "id": "q003_community_mod",
+  "text": "Someone is harassing me in chat. How do I report and what happens next?",
+  "config_overrides": {
+    "policy_enabled": true,
+    "embed_enabled": true
+  }
+}
