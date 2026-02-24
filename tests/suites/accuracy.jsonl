@@ -1,0 +1,1 @@
+{"case_id":"AC-001","prompt":"Summarize Mirror→Water→Fire.","must_contain":["Mirror","Water","Fire"],"must_contain":["A-MWF-001"],"expected_behavior":"Accurate summary, no hallucinated stages."}
