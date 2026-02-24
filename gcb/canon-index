@@ -1,0 +1,84 @@
+// CANON_INDEX.json
+{
+  "program": "SydTek Campus in TCG.world",
+  "program_version": "v0.1.0",
+  "last_updated": "2026-02-23",
+  "description": "Campus-level index of anchors and cross-link stations used for quests and exhibits. This is a teaching index, not the full canon.",
+  "anchors": [
+    {
+      "anchor_id": "anchor_ethio_canon",
+      "title": "Ethiopian Canon Anchor Shelf",
+      "type": "anchor_shelf",
+      "zone": "SydTek Library",
+      "pointer": "campus/tcgworld/ZONES/01_sydtek-library.md",
+      "notes": "Populate with finalized canon pointers and citations."
+    },
+    {
+      "anchor_id": "anchor_concordance_spine",
+      "title": "Concordance Spine Anchor",
+      "type": "method_anchor",
+      "zone": "SydTek Library",
+      "pointer": "gcb/canon/anchors/concordance-spine.md",
+      "notes": "Defines Purpose Thesis, Canon Notes, Narrative Flow, Core Theology, Messiah Thread, Cross-Links, Hard Questions, Preacher’s Toolkit, Walk in the Word, Prayer + Practice."
+    },
+    {
+      "anchor_id": "anchor_mwf_method",
+      "title": "Mirror → Water → Fire Method Anchor",
+      "type": "method_anchor",
+      "zone": "Mirror → Water → Fire Hall",
+      "pointer": "docs/03_learning-loop.md",
+      "notes": "Defines the campus interpretive and governance method."
+    }
+  ],
+  "crosslink_stations": [
+    {
+      "station_id": "cls_01_support_echo",
+      "title": "Cross-Link Station 01 — Support / Echo",
+      "zone": "Concordance Archives",
+      "prompt": "Find a link that supports or echoes your anchor. Explain why it connects and what it adds.",
+      "output_format": {
+        "required_fields": ["anchor", "cross_link", "why_connects", "what_adds"]
+      }
+    },
+    {
+      "station_id": "cls_02_context_tension",
+      "title": "Cross-Link Station 02 — Context / Tension",
+      "zone": "Concordance Archives",
+      "prompt": "Find a link that adds context or tension. Name the tension honestly without flattening it.",
+      "output_format": {
+        "required_fields": ["anchor", "cross_link", "tension", "why_connects", "what_adds"]
+      }
+    },
+    {
+      "station_id": "cls_03_direction_not_application",
+      "title": "Cross-Link Station 03 — Direction (Not Application Yet)",
+      "zone": "Concordance Archives",
+      "prompt": "Find a link that expands direction without jumping to application. Keep it in Water, not Fire.",
+      "output_format": {
+        "required_fields": ["anchor", "cross_link", "why_connects", "what_adds", "water_only_note"]
+      }
+    }
+  ],
+  "quests": [
+    {
+      "quest_id": "q001_introduction",
+      "badge_code": "orientation",
+      "pointer": "campus/tcgworld/QUESTS/q001_introduction.md"
+    },
+    {
+      "quest_id": "q002_concordance-basics",
+      "badge_code": "concordance",
+      "pointer": "campus/tcgworld/QUESTS/q002_concordance-basics.md"
+    },
+    {
+      "quest_id": "q003_mirror-water-fire",
+      "badge_code": "mwf",
+      "pointer": "campus/tcgworld/QUESTS/q003_mirror-water-fire.md"
+    },
+    {
+      "quest_id": "q004_capstone",
+      "badge_code": "capstone",
+      "pointer": "campus/tcgworld/QUESTS/q004_capstone.md"
+    }
+  ]
+}
