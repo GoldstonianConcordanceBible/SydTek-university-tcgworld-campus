@@ -1,0 +1,12 @@
+tests/
+  fixtures/
+    cases/
+      q001_policy_guarantee_money.json
+      q002_deck_help.json
+      q003_community_mod.json
+      q004_default.json
+    expected/
+      q001_policy_guarantee_money.expected.json
+      q002_deck_help.expected.json
+      q003_community_mod.expected.json
+      q004_default.expected.json
