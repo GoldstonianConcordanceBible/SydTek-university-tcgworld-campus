@@ -1,0 +1,43 @@
+{
+  "program_name": "GCB Campus in TCG.world",
+  "program_version": "v0.1.0",
+  "credential_code": "capstone",
+  "credential_type": "badge",
+  "recipient_wallet": "0xREPLACE_ME",
+  "issued_at": "2026-02-23T00:00:00Z",
+  "issuer": {
+    "name": "SydTek University",
+    "repository": "https://github.com/<ORG>/<REPO>"
+  },
+  "mwf_trace": {
+    "pointer": "repo://gcb-tcgworld-sydtek-campus/onchain/attestations/capstone_review_REPLACE_ME.json",
+    "hash": "sha256:REPLACE_ME"
+  },
+  "rubric": {
+    "total_points": 10,
+    "pass_threshold": 8,
+    "final_score": 9,
+    "rubric_record_pointer": "repo://gcb-tcgworld-sydtek-campus/onchain/attestations/capstone_review_REPLACE_ME.json",
+    "rubric_record_hash": "sha256:REPLACE_ME"
+  },
+  "evidence": [
+    {
+      "type": "pr_merge_or_memo",
+      "pointer": "repo://gcb-tcgworld-sydtek-campus/submissions/q004/alias_q004_capstone.json",
+      "hash": "sha256:REPLACE_ME"
+    }
+  ],
+  "revocation": null,
+  "integrity": {
+    "hash_alg": "sha256",
+    "metadata_hash": "sha256:REPLACE_ME",
+    "signatures": [
+      {
+        "signer_role": "reviewer",
+        "signer_id": "maintainer:REPLACE_ME",
+        "signature": "0xREPLACE_ME",
+        "signed_at": "2026-02-23T00:00:00Z"
+      }
+    ]
+  }
+}
