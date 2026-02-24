@@ -1,0 +1,32 @@
+{
+  "record_type": "revocation_record",
+  "program_name": "GCB Campus in TCG.world",
+  "program_version": "v0.1.0",
+  "record_id": "revoke_REPLACE_ME",
+  "created_at": "2026-02-23T00:00:00Z",
+  "credential": {
+    "credential_id": "REPLACE_ME",
+    "credential_code": "orientation|concordance|mwf|capstone|certificate|npc_cert_L1|npc_cert_L2|npc_cert_L3",
+    "recipient_wallet": "0xREPLACE_ME",
+    "metadata_pointer": "repo://REPLACE_ME",
+    "metadata_hash": "sha256:REPLACE_ME"
+  },
+  "reason": {
+    "reason_code": "REVOKE_FABRICATION",
+    "severity": "HIGH",
+    "description": "REPLACE_ME"
+  },
+  "evidence": [
+    {
+      "type": "drift_event_or_issue",
+      "pointer": "repo://REPLACE_ME",
+      "hash": "sha256:REPLACE_ME"
+    }
+  ],
+  "review": {
+    "reviewer_id": "maintainer:REPLACE_ME",
+    "decision": "REVOKED",
+    "signature": "0xREPLACE_ME",
+    "signed_at": "2026-02-23T00:00:00Z"
+  }
+}
