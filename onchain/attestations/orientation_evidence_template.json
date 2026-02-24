@@ -1,0 +1,22 @@
+// onchain/attestations/orientation_evidence_template.json
+{
+  "record_type": "evidence",
+  "program_name": "SydTek Campus in TCG.world",
+  "program_version": "v0.1.0",
+  "quest_id": "q001_introduction",
+  "badge_code": "orientation",
+  "recipient_wallet": "0xREPLACE_ME",
+  "submitted_at": "2026-02-23T00:00:00Z",
+  "evidence": [
+    {
+      "type": "text_submission",
+      "title": "Orientation Proof Artifact",
+      "pointer": "repo://gcb-tcgworld-sydtek-campus/submissions/q001/<learner_id>.md",
+      "content_hash": "sha256:REPLACE_ME"
+    }
+  ],
+  "privacy": {
+    "contains_personal_data": false,
+    "notes": "Do not include raw emails/IDs."
+  }
+}
