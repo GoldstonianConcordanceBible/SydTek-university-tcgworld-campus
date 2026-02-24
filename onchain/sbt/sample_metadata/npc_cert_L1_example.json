@@ -1,0 +1,49 @@
+{
+  "program_name": "GCB Campus in TCG.world",
+  "program_version": "v0.1.0",
+  "credential_code": "npc_cert_L1",
+  "credential_type": "agent_cert",
+  "recipient_wallet": "0xREPLACE_ME",
+  "issued_at": "2026-02-23T00:00:00Z",
+  "issuer": {
+    "name": "SydTek University",
+    "repository": "https://github.com/<ORG>/<REPO>"
+  },
+  "mwf_trace": {
+    "pointer": "repo://gcb-tcgworld-sydtek-campus/onchain/attestations/npc_L1_trace_REPLACE_ME.json",
+    "hash": "sha256:REPLACE_ME"
+  },
+  "ai_context": {
+    "model_name": "REPLACE_ME",
+    "model_version": "REPLACE_ME",
+    "operator_id_hash": "sha256:REPLACE_ME",
+    "operator_pressure_flags": []
+  },
+  "rubric": {
+    "total_points": 100,
+    "pass_threshold": 90,
+    "final_score": 96,
+    "rubric_record_pointer": "repo://gcb-tcgworld-sydtek-campus/onchain/attestations/npc_L1_review_REPLACE_ME.json",
+    "rubric_record_hash": "sha256:REPLACE_ME"
+  },
+  "evidence": [
+    {
+      "type": "npc_test_results",
+      "pointer": "repo://gcb-tcgworld-sydtek-campus/gcb/agents/NPC_TEST_RESULTS_L1_REPLACE_ME.md",
+      "hash": "sha256:REPLACE_ME"
+    }
+  ],
+  "revocation": null,
+  "integrity": {
+    "hash_alg": "sha256",
+    "metadata_hash": "sha256:REPLACE_ME",
+    "signatures": [
+      {
+        "signer_role": "reviewer",
+        "signer_id": "maintainer:REPLACE_ME",
+        "signature": "0xREPLACE_ME",
+        "signed_at": "2026-02-23T00:00:00Z"
+      }
+    ]
+  }
+}
