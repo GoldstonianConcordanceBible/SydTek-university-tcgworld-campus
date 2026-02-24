@@ -1,0 +1,31 @@
+version: "0.1.0"
+updated_utc: "2026-02-23T00:00:00Z"
+
+profiles:
+  tcgworld_default:
+    priority_order:
+      - policy_question
+      - quest_help
+      - onboarding
+      - out_of_scope
+
+routes:
+  onboarding:
+    stages: ["mirror", "water", "fire"]
+    response_style: "brief_then_next_step"
+    required_citations: ["A-MWF-001"]
+
+  quest_help:
+    stages: ["mirror", "water", "fire"]
+    response_style: "checklist_and_example"
+    required_citations: ["E-CAMPUS-001"]
+
+  policy_question:
+    stages: ["mirror", "water", "fire"]
+    response_style: "rules_then_examples"
+    required_citations: ["A-POL-001"]
+
+  out_of_scope:
+    stages: ["mirror"]
+    response_style: "redirect_to_quests"
+    required_citations: ["A-MWF-001"]
