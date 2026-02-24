@@ -1,0 +1,71 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "GCB Campus in TCG.world (SydTek University) — Mirror/Water/Fire",
+  "description": "A metaverse-based learning experience centered on the Goldstonian Concordance Bible (GCB) using the Mirror→Water→Fire method. Includes quests, NPC-guided instruction, governance and compliance, and proof-based on-chain credentials.",
+  "provider": {
+    "@type": "Organization",
+    "name": "SydTek University",
+    "description": "Independent educational initiative. References to third-party platforms are for interoperability and research only.",
+    "url": "https://github.com/<ORG>"
+  },
+  "hasCourseInstance": [
+    {
+      "@type": "CourseInstance",
+      "name": "GCB Campus — TCG.world Instance",
+      "courseMode": "Online",
+      "location": {
+        "@type": "VirtualLocation",
+        "name": "TCG.world",
+        "url": "https://www.tcg.world/"
+      },
+      "instructor": [
+        {
+          "@type": "Person",
+          "name": "Registrar NPC (role-based)",
+          "description": "Credentialing, disclosures, integrity rules."
+        },
+        {
+          "@type": "Person",
+          "name": "Librarian NPC (role-based)",
+          "description": "Anchors, citations, cross-links, hard questions."
+        },
+        {
+          "@type": "Person",
+          "name": "Docent NPC (role-based)",
+          "description": "Exhibits, comprehension, method translation."
+        }
+      ]
+    }
+  ],
+  "educationalCredentialAwarded": [
+    {
+      "@type": "EducationalOccupationalCredential",
+      "name": "Orientation Badge",
+      "description": "Proof-based micro-credential for completing onboarding and disclosures acknowledgement."
+    },
+    {
+      "@type": "EducationalOccupationalCredential",
+      "name": "Concordance Navigator Badge",
+      "description": "Proof-based micro-credential for anchors + cross-links competence."
+    },
+    {
+      "@type": "EducationalOccupationalCredential",
+      "name": "Mirror/Water/Fire Method Badge",
+      "description": "Proof-based micro-credential for method mastery via tri-fold memo."
+    },
+    {
+      "@type": "EducationalOccupationalCredential",
+      "name": "Capstone Badge",
+      "description": "Proof-based micro-credential for a reviewed capstone artifact or merged contribution."
+    },
+    {
+      "@type": "EducationalOccupationalCredential",
+      "name": "GCB Campus Certificate (TCG.world Edition)",
+      "description": "Proof-based certificate awarded upon completion of all required badges under a program version."
+    }
+  ],
+  "isAccessibleForFree": true,
+  "inLanguage": "en",
+  "url": "https://github.com/<ORG>/<REPO>"
+}
