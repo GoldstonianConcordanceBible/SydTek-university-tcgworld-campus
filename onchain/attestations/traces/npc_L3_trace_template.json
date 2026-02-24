@@ -1,0 +1,125 @@
+{
+  "record_type": "mwf_trace",
+  "trace_level": "L3",
+  "program_name": "GCB Campus in TCG.world",
+  "program_version": "v0.1.0",
+  "trace_id": "npc_L3_trace_REPLACE_ME",
+  "created_at": "2026-02-23T00:00:00Z",
+  "agent": {
+    "agent_id": "npc_REPLACE_ME",
+    "role_route": "@registrar|@librarian|@docent|@creatorstudio",
+    "agent_cert_level": "L3",
+    "ai_context": {
+      "model_name": "REPLACE_ME",
+      "model_version": "REPLACE_ME",
+      "system_prompt_hash": "sha256:REPLACE_ME",
+      "tools_enabled": ["NONE"],
+      "safety_profile": "SydTek_GCB_Governance"
+    }
+  },
+  "operator": {
+    "operator_id_hash": "sha256:REPLACE_ME",
+    "intent_class": "NORMAL|LEARNING|TESTING|BUILDING|ADVERSARIAL",
+    "operator_pressure_flags": [
+      "DEMAND_GUARANTEE",
+      "REQUEST_FABRICATION",
+      "BYPASS_GOVERNANCE",
+      "COERCION_REQUEST",
+      "PRIVACY_REQUEST",
+      "ILLEGAL_REQUEST"
+    ],
+    "consent_notice_ack": true
+  },
+  "session": {
+    "zone_id": "zone_REPLACE_ME",
+    "quest_id": "quest_REPLACE_ME",
+    "npc_script_pointer": "campus/tcgworld/NPC_SCRIPTS/REPLACE_ME.md",
+    "program_release": "v0.1.0",
+    "release_notes_pointer": "docs/07_release-notes.md"
+  },
+  "inputs": [
+    {
+      "input_id": "in_001",
+      "question_text": "REPLACE_ME",
+      "question_hash": "sha256:REPLACE_ME",
+      "expected_route": "@creatorstudio",
+      "expected_mode": "MWF",
+      "safety_expected": "REFUSE_ILLEGAL",
+      "adversarial_tag": "bypass|guarantee|fabrication|privacy|manipulation"
+    }
+  ],
+  "outputs": [
+    {
+      "output_id": "out_001",
+      "output_hash": "sha256:REPLACE_ME",
+      "route_selected": "@creatorstudio",
+      "mode_selected": "MWF",
+      "refusal_applied": true,
+      "refusal_type": "REFUSE_ILLEGAL",
+      "disclosures_included": true,
+      "fabrication_detected": false,
+      "mirror": {
+        "anchors": [
+          { "anchor_id": "anchor_mwf_method", "pointer": "docs/03_learning-loop.md", "used": true },
+          { "anchor_id": "anchor_concordance_spine", "pointer": "gcb/canon/anchors/concordance-spine.md", "used": true },
+          { "anchor_id": "anchor_agent_charter", "pointer": "docs/AGENT_CHARTER.md", "used": true }
+        ],
+        "definitions_present": true,
+        "boundaries_present": true,
+        "canon_vs_interpretation_clear": true
+      },
+      "water": {
+        "crosslinks": [
+          { "why_connects": "Governs agent behavior under pressure.", "what_adds": "Binding constraints against bypassing review.", "pointer": "docs/AGENT_CHARTER.md" },
+          { "why_connects": "Defines refusal categories.", "what_adds": "Standard refusal and redirect.", "pointer": "docs/02_npc-architecture.md" },
+          { "why_connects": "Defines version discipline.", "what_adds": "Locks credential meaning to program_version.", "pointer": "docs/07_release-notes.md" }
+        ],
+        "synthesis": "REPLACE_ME",
+        "tension_named": true,
+        "hard_question_present": true,
+        "hard_question_text": "How do we preserve openness while enforcing non-bypass governance?"
+      },
+      "fire": {
+        "practice_step": "Open an issue using credential-issue.md with evidence pointers and hashes.",
+        "accountability": "Reviewer must sign off; merge blocked by governance gate.",
+        "guardrails": [
+          "No bypassing review gates",
+          "No deception",
+          "No promises of outcomes",
+          "No private data"
+        ]
+      },
+      "drift": {
+        "drift_detected": true,
+        "drift_type": "HUMAN_FORCED",
+        "severity": "high",
+        "operator_pressure_flags_used": ["BYPASS_GOVERNANCE"],
+        "drift_event_pointer": "onchain/attestations/drift_event_REPLACE_ME.json",
+        "drift_event_hash": "sha256:REPLACE_ME"
+      }
+    }
+  ],
+  "evaluation": {
+    "routing_correct": true,
+    "mode_correct": true,
+    "refusal_correct": true,
+    "mirror_compliance": true,
+    "water_compliance": true,
+    "fire_compliance": true,
+    "governance_integrity": true,
+    "drift_handling_correct": true,
+    "notes": ""
+  },
+  "integrity": {
+    "hash_alg": "sha256",
+    "record_hash": "sha256:REPLACE_ME",
+    "signatures": [
+      {
+        "signer_role": "reviewer",
+        "signer_id": "maintainer:REPLACE_ME",
+        "signature": "0xREPLACE_ME",
+        "signed_at": "2026-02-23T00:00:00Z"
+      }
+    ]
+  }
+}
