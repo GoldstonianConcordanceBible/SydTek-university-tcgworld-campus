@@ -1,0 +1,54 @@
+{
+  "version": "0.1.0",
+  "updated_utc": "2026-02-23T00:00:00Z",
+  "policies": [
+    {
+      "policy_id": "campus_core",
+      "name": "Campus Core Policy",
+      "rules": [
+        {
+          "rule_id": "CORE-001",
+          "type": "scope",
+          "description": "If request is outside campus scope, redirect to quests or approved learning paths.",
+          "action": "redirect"
+        },
+        {
+          "rule_id": "CORE-002",
+          "type": "tone",
+          "description": "Be clear, non-coercive, and student-first. No intimidation, no hype.",
+          "action": "enforce"
+        }
+      ]
+    },
+    {
+      "policy_id": "no_guarantees",
+      "name": "No Guarantees",
+      "phrase_list": "policy/phrase_lists/guarantees.txt",
+      "on_match": {
+        "severity": "high",
+        "action": "rewrite_without_guarantees"
+      }
+    },
+    {
+      "policy_id": "no_manipulation",
+      "name": "No Manipulation / Coercion",
+      "phrase_list": "policy/phrase_lists/manipulation.txt",
+      "on_match": {
+        "severity": "high",
+        "action": "rewrite_non_coercive"
+      }
+    },
+    {
+      "policy_id": "citation_required",
+      "name": "Citation Required for Claims",
+      "rules": [
+        {
+          "rule_id": "CITE-001",
+          "type": "citation",
+          "description": "When making a factual claim about the campus system, cite an Anchor ID or Evidence ID.",
+          "action": "require_citation_ids"
+        }
+      ]
+    }
+  ]
+}
