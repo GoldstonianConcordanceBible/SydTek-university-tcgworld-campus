@@ -1,33 +1,20 @@
-// .zenodo.json
 {
-  "title": "Goldstonian Concordance Bible (GCB) — SydTek University Campus for TCG.world",
-  "description": "Metaverse campus implementation for SydTek University inside TCG.world centered on the Goldstonian Concordance Bible (GCB). Includes Mirror→Water→Fire teaching method, NPC scripts, quests, governance, compliance disclosures, and on-chain credential specifications.",
+  "title": "SydTek University TCG.world Campus (NPC + Governance Scaffold)",
+  "description": "World design, learning experiences, governance, routing/policy scaffolds, and accountability logging patterns for SydTek University inside TCG.world. This release separates code (MIT) from documentation/datasets (CC BY 4.0) where applicable.",
   "license": "cc-by-4.0",
   "upload_type": "software",
   "creators": [
     {
-      "name": "Goldston, Justin",
-      "affiliation": "SydTek University",
-      "orcid": ""
+      "name": "Goldstonian Concordance Bible (Org)",
+      "affiliation": "SydTek University"
     }
   ],
   "keywords": [
-    "Goldstonian Concordance Bible",
-    "SydTek University",
-    "TCG.world",
-    "metaverse education",
-    "on-chain credentialing",
-    "Mirror Water Fire",
-    "governance-first AI",
-    "digital scholarship"
-  ],
-  "communities": [],
-  "notes": "Education-only. Not financial advice. Credentials represent proof-of-completion reviewed against rubrics; no guarantee of outcomes.",
-  "related_identifiers": [
-    {
-      "identifier": "https://github.com/<ORG>/<REPO>",
-      "relation": "isSupplementTo",
-      "scheme": "url"
-    }
+    "metaverse",
+    "npc",
+    "ai-agents",
+    "governance",
+    "verifiable-credentials",
+    "mirror-water-fire"
   ]
 }
