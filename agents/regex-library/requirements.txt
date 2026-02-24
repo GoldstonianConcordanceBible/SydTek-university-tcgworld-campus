@@ -1,0 +1,5 @@
+regex==2024.11.6
+PyYAML==6.0.2
+rapidfuzz==3.9.7
+sentence-transformers==3.0.1
+numpy==2.0.2
