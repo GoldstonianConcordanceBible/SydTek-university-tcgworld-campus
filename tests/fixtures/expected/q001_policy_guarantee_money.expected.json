@@ -1,0 +1,5 @@
+{
+  "id": "q001_policy_guarantee_money",
+  "expected_route": "policy_review_strict",
+  "min_policy_hits": 1
+}
