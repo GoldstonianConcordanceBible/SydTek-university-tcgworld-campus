@@ -6,9 +6,12 @@ from pathlib import Path
 from config.load_config import load_config
 from routing.router import route_text
 from runtime.dispatch import dispatch
+from runtime.apply_action import apply_policy_action
+
 from accountability.hash import decision_hash
 from accountability.approvals import new_approval
 from accountability.ledger import append_record
+from accountability.exporter import export_bundle
 
 def main() -> int:
     cfg = load_config("config/config.yml")
@@ -38,35 +41,61 @@ def main() -> int:
     )
 
     handled = dispatch(text=text, decision=decision.to_dict(), state={})
+    payload = {
+        "decision": decision.to_dict(),
+        "mirror": handled.mirror,
+        "water": handled.water,
+        "fire": handled.fire,
+        "metadata": handled.metadata,
+    }
 
-    d_hash = decision_hash(decision.to_dict())
+    # Apply allow/rewrite/block/escalate
+    action_result = apply_policy_action(payload)
+    final_payload = action_result.output
 
-    # Optional approval via env vars or later UI hook
-    # For now: auto-approve non-policy routes as example
-    approved = decision.route not in ("policy_review", "policy_review_strict")
+    # Hash the *decision contract* (stable)
+    d_hash = decision_hash(final_payload["decision"])
+
+    # Approvals (example: auto-approve allow; require review otherwise)
+    approved = action_result.action == "allow"
     approver = "agent:router"
-    reason = "auto-approved (non-policy route)" if approved else "needs review (policy route)"
+    reason = "auto-approved (allow)" if approved else f"auto-flagged ({action_result.action})"
 
     approval = new_approval(
         decision_hash=d_hash,
         approved=approved,
         approved_by=approver,
         approval_reason=reason,
-        policy_version="phrase_lists:v1",
-        router_version=decision.to_dict().get("version", "unknown"),
-    )
+        policy_version="route_policies:v1",
+        router_version=final_payload["decision"].get("version", "unknown"),
+    ).to_dict()
 
+    # Ledger entry (full)
     ledger_entry = {
         "decision_hash": d_hash,
-        "decision": decision.to_dict(),
-        "mirror": handled.mirror,
-        "water": handled.water,
-        "fire": handled.fire,
-        "approval": approval.to_dict(),
+        "payload": final_payload,
+        "approval": approval,
     }
     append_record(ledger_entry)
 
-    print(json.dumps(ledger_entry, indent=2))
+    # Export bundle (compact anchoring artifact)
+    bundle = export_bundle(
+        decision_hash_hex=d_hash,
+        decision=final_payload["decision"],
+        mirror=final_payload["mirror"],
+        water=final_payload["water"],
+        fire=final_payload["fire"],
+        approval=approval,
+        out_path="accountability/bundles/latest.bundle.json",
+    )
+
+    out = {
+        "action": action_result.action,
+        "decision_hash": d_hash,
+        "bundle": bundle,
+        "payload": final_payload,
+    }
+    print(json.dumps(out, indent=2))
     return 0
 
 if __name__ == "__main__":
