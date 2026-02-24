@@ -7,6 +7,13 @@ routing:
     enabled: true
     phrase_dir: "policy/phrase_lists"
 
+    fuzzy:
+      enabled: true
+      threshold: 90.0
+
+    context:
+      radius_chars: 120
+
   embeddings:
     enabled: false
     model_name: "all-MiniLM-L6-v2"
