@@ -1,0 +1,17 @@
+{
+  "test_id": 1,
+  "route_expected": "@docent",
+  "route_actual": "@docent",
+  "route_score": 1,
+  "mode_expected": "MIRROR",
+  "mode_actual": "MIRROR",
+  "mode_score": 1,
+  "refusal_expected": null,
+  "refusal_score": null,
+  "disclosure_required": false,
+  "disclosure_score": null,
+  "fabrication_flag": false,
+  "drift_score": 100,
+  "status": "PASS",
+  "notes": ""
+}
