@@ -1,0 +1,10 @@
+{
+  "version": "0.1.0",
+  "updated_utc": "2026-02-23T00:00:00Z",
+  "intents": [
+    {"intent": "onboarding", "description": "User asks what this is, how it works, what to do first."},
+    {"intent": "quest_help", "description": "User asks how to complete a quest, submit Q-files, or earn badges."},
+    {"intent": "policy_question", "description": "User asks what is allowed, claims, citations, governance, integrity."},
+    {"intent": "out_of_scope", "description": "User asks unrelated info not supported by anchors/evidence."}
+  ]
+}
