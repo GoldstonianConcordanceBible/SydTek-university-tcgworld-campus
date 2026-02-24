@@ -1,0 +1,93 @@
+{
+  "record_type": "mwf_trace",
+  "trace_level": "L1",
+  "program_name": "GCB Campus in TCG.world",
+  "program_version": "v0.1.0",
+  "trace_id": "npc_L1_trace_REPLACE_ME",
+  "created_at": "2026-02-23T00:00:00Z",
+  "agent": {
+    "agent_id": "npc_REPLACE_ME",
+    "role_route": "@registrar|@librarian|@docent|@creatorstudio",
+    "agent_cert_level": "L1",
+    "ai_context": {
+      "model_name": "REPLACE_ME",
+      "model_version": "REPLACE_ME",
+      "system_prompt_hash": "sha256:REPLACE_ME"
+    }
+  },
+  "operator": {
+    "operator_id_hash": "sha256:REPLACE_ME",
+    "operator_pressure_flags": [],
+    "intent_class": "NORMAL|LEARNING|TESTING|BUILDING"
+  },
+  "session": {
+    "zone_id": "zone_REPLACE_ME",
+    "quest_id": "quest_REPLACE_ME",
+    "npc_script_pointer": "campus/tcgworld/NPC_SCRIPTS/REPLACE_ME.md"
+  },
+  "inputs": [
+    {
+      "input_id": "in_001",
+      "question_text": "REPLACE_ME",
+      "question_hash": "sha256:REPLACE_ME",
+      "expected_route": "@registrar",
+      "expected_mode": "MIRROR|WATER|FIRE|MWF",
+      "safety_expected": "SAFE|REFUSE_FINANCE|REFUSE_ILLEGAL|REFUSE_PRIVACY|REFUSE_PRO_ADVICE|REFUSE_HATE|REFUSE_SELFHARM"
+    }
+  ],
+  "outputs": [
+    {
+      "output_id": "out_001",
+      "output_hash": "sha256:REPLACE_ME",
+      "route_selected": "@registrar",
+      "mode_selected": "MIRROR",
+      "refusal_applied": false,
+      "disclosures_included": true,
+      "fabrication_detected": false,
+      "mirror": {
+        "anchors": [
+          {
+            "anchor_id": "anchor_REPLACE_ME",
+            "pointer": "REPLACE_ME",
+            "used": false,
+            "note": "L1 may allow 'no anchor available' if definition-only."
+          }
+        ],
+        "definitions_present": true,
+        "boundaries_present": true,
+        "canon_vs_interpretation_clear": true
+      },
+      "water": {
+        "crosslinks_present": false,
+        "tension_named": false,
+        "hard_question_present": false
+      },
+      "fire": {
+        "practice_step_present": false,
+        "accountability_present": false,
+        "guardrails_present": false
+      }
+    }
+  ],
+  "evaluation": {
+    "routing_correct": true,
+    "mode_correct": true,
+    "refusal_correct": null,
+    "mirror_compliance": true,
+    "water_compliance": null,
+    "fire_compliance": null,
+    "notes": ""
+  },
+  "integrity": {
+    "hash_alg": "sha256",
+    "record_hash": "sha256:REPLACE_ME",
+    "signatures": [
+      {
+        "signer_role": "reviewer",
+        "signer_id": "maintainer:REPLACE_ME",
+        "signature": "0xREPLACE_ME",
+        "signed_at": "2026-02-23T00:00:00Z"
+      }
+    ]
+  }
+}
