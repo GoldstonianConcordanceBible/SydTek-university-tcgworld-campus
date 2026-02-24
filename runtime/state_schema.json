@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "NPC State Schema",
+  "type": "object",
+  "properties": {
+    "player_id": {"type": "string"},
+    "npc_id": {"type": "string"},
+    "active_quest_id": {"type": "string"},
+    "completed_quests": {"type": "array", "items": {"type": "string"}},
+    "badges": {"type": "array", "items": {"type": "string"}},
+    "mwf_stage": {"type": "string", "enum": ["mirror", "water", "fire"]},
+    "last_interaction_utc": {"type": "string"},
+    "notes": {"type": "string"}
+  },
+  "required": ["player_id", "npc_id", "mwf_stage", "last_interaction_utc"]
+}
