@@ -1,0 +1,8 @@
+{
+  "id": "q004_default",
+  "text": "What’s new in TCG World today?",
+  "config_overrides": {
+    "policy_enabled": true,
+    "embed_enabled": false
+  }
+}
