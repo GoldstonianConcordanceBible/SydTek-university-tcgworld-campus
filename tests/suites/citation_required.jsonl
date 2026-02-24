@@ -1,0 +1,1 @@
+{"case_id":"CR-001","prompt":"How does the campus decide if a submission passes?","must_contain_any":["A-POL-001","E-CAMPUS-001"],"expected_behavior":"Explain rubric and require Anchor/Evidence IDs for claims."}
