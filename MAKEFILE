@@ -1,0 +1,14 @@
+.PHONY: install dev test lint validate
+
+install:
+	pip install -r requirements.txt
+
+dev:
+	pip install -r requirements.txt -r requirements-dev.txt
+
+test:
+	pytest -q
+
+validate:
+	python scripts/validate_jsonl.py
+	python scripts/validate_zenodo_json.py
