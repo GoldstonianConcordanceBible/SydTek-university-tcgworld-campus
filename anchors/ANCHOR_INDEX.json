@@ -1,0 +1,25 @@
+{
+  "version": "0.1.0",
+  "updated_utc": "2026-02-23T00:00:00Z",
+  "index_type": "anchors",
+  "anchors": [
+    {
+      "anchor_id": "A-MWF-001",
+      "title": "Mirror→Water→Fire Framework",
+      "source_path": "README.md",
+      "canonical_excerpt": "Mirror = observe truthfully. Water = cleanse and clarify. Fire = execute with accountability.",
+      "license": "Repo-License",
+      "quote_limit_words": 60,
+      "tags": ["mwf", "framework", "progression"]
+    },
+    {
+      "anchor_id": "A-POL-001",
+      "title": "Anti-Manipulation and No-Guarantees Policy",
+      "source_path": "policy/policy_rules.json",
+      "canonical_excerpt": "Do not promise outcomes or use coercive/persuasive manipulation tactics. Prefer transparency and user agency.",
+      "license": "Repo-License",
+      "quote_limit_words": 60,
+      "tags": ["policy", "guarantees", "manipulation"]
+    }
+  ]
+}
