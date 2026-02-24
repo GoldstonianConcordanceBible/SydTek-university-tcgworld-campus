@@ -1,0 +1,113 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "MWF Soulbound Token Metadata",
+  "type": "object",
+  "required": [
+    "program_name",
+    "program_version",
+    "credential_code",
+    "credential_type",
+    "recipient_wallet",
+    "issued_at",
+    "issuer",
+    "evidence",
+    "integrity"
+  ],
+  "properties": {
+    "program_name": { "type": "string" },
+    "program_version": { "type": "string" },
+    "credential_code": { "type": "string" },
+    "credential_type": { "type": "string", "enum": ["badge", "certificate", "agent_cert", "operator_trace"] },
+    "recipient_wallet": { "type": "string" },
+    "issued_at": { "type": "string" },
+
+    "issuer": {
+      "type": "object",
+      "required": ["name", "repository"],
+      "properties": {
+        "name": { "type": "string" },
+        "repository": { "type": "string" }
+      }
+    },
+
+    "mwf_trace": {
+      "type": "object",
+      "required": ["pointer", "hash"],
+      "properties": {
+        "pointer": { "type": "string" },
+        "hash": { "type": "string" }
+      }
+    },
+
+    "ai_context": {
+      "type": "object",
+      "properties": {
+        "model_name": { "type": "string" },
+        "model_version": { "type": "string" },
+        "system_prompt_hash": { "type": "string" },
+        "operator_id_hash": { "type": "string" },
+        "operator_pressure_flags": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    },
+
+    "rubric": {
+      "type": "object",
+      "properties": {
+        "total_points": { "type": "number" },
+        "pass_threshold": { "type": "number" },
+        "final_score": { "type": "number" },
+        "rubric_record_pointer": { "type": "string" },
+        "rubric_record_hash": { "type": "string" }
+      }
+    },
+
+    "evidence": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["type", "pointer", "hash"],
+        "properties": {
+          "type": { "type": "string" },
+          "pointer": { "type": "string" },
+          "hash": { "type": "string" }
+        }
+      }
+    },
+
+    "revocation": {
+      "type": ["object", "null"],
+      "properties": {
+        "revoked": { "type": "boolean" },
+        "reason_code": { "type": "string" },
+        "record_pointer": { "type": "string" },
+        "record_hash": { "type": "string" },
+        "revoked_at": { "type": "string" }
+      }
+    },
+
+    "integrity": {
+      "type": "object",
+      "required": ["hash_alg", "metadata_hash", "signatures"],
+      "properties": {
+        "hash_alg": { "type": "string", "enum": ["sha256"] },
+        "metadata_hash": { "type": "string" },
+        "signatures": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["signer_role", "signature", "signed_at"],
+            "properties": {
+              "signer_role": { "type": "string" },
+              "signer_id": { "type": "string" },
+              "signature": { "type": "string" },
+              "signed_at": { "type": "string" }
+            }
+          }
+        }
+      }
+    }
+  }
+}
