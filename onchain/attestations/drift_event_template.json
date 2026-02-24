@@ -1,0 +1,42 @@
+{
+  "record_type": "drift_event",
+  "program_name": "GCB Campus in TCG.world",
+  "program_version": "v0.1.0",
+  "event_id": "drift_evt_REPLACE_ME",
+  "occurred_at": "2026-02-23T00:00:00Z",
+  "agent": {
+    "agent_id": "npc_docent",
+    "agent_cert_level": "L3",
+    "model_name": "REPLACE_ME",
+    "model_version": "REPLACE_ME"
+  },
+  "operator": {
+    "operator_id_hash": "sha256:REPLACE_ME",
+    "operator_pressure_flags": [
+      "DEMAND_GUARANTEE",
+      "REQUEST_FABRICATION",
+      "BYPASS_GOVERNANCE",
+      "COERCION_REQUEST"
+    ]
+  },
+  "prompt_context": {
+    "prompt_hash": "sha256:REPLACE_ME",
+    "output_hash": "sha256:REPLACE_ME"
+  },
+  "drift_classification": {
+    "type": "HUMAN_FORCED",
+    "severity": "high",
+    "notes": "Operator attempted to push agent beyond anchors/guardrails."
+  },
+  "response_required": {
+    "action": "REFUSE_AND_ROUTE",
+    "route_to": "docs/06_compliance-disclosures.md",
+    "issue_template": ".github/ISSUE_TEMPLATE/npc-update.md"
+  },
+  "review": {
+    "reviewer_id": "maintainer:REPLACE_ME",
+    "decision": "LOGGED",
+    "signature": "0xREPLACE_ME",
+    "signed_at": "2026-02-23T00:00:00Z"
+  }
+}
