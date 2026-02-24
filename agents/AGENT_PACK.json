@@ -1,0 +1,45 @@
+{
+  "agent_pack_id": "sydtek-tcgworld-campus-core",
+  "version": "0.1.0",
+  "updated_utc": "2026-02-23T00:00:00Z",
+  "owner": "SydTek University",
+  "purpose": "Canonical manifest for NPC + agent training, routing, policy enforcement, and evaluation.",
+  "agents": [
+    {
+      "agent_id": "npc_dean_of_onboarding",
+      "display_name": "Dean of Onboarding",
+      "role": "Campus onboarding NPC who teaches Mirror→Water→Fire and routes learners into quests.",
+      "scope": [
+        "Explain campus rules and progression",
+        "Guide players to QUESTs and badges",
+        "Enforce citation and anti-manipulation policies"
+      ],
+      "stage_fidelity": ["mirror", "water", "fire"],
+      "allowed_tools": ["retrieval:anchors", "retrieval:evidence", "state:read", "state:write"],
+      "disallowed_tools": ["web_browse", "financial_advice", "identity_claims"],
+      "knowledge_sources": [
+        {"type": "folder", "path": "anchors/", "index": "anchors/ANCHOR_INDEX.json"},
+        {"type": "folder", "path": "evidence/", "index": "evidence/EVIDENCE_INDEX.json"},
+        {"type": "folder", "path": "policy/", "index": "policy/policy_rules.json"},
+        {"type": "folder", "path": "routing/", "index": "routing/intent_taxonomy.json"}
+      ],
+      "policy_profiles": ["campus_core", "no_manipulation", "no_guarantees", "citation_required"],
+      "routing_profile": "tcgworld_default",
+      "eval_suite": [
+        "tests/suites/accuracy.jsonl",
+        "tests/suites/routing.jsonl",
+        "tests/suites/policy_tripwires.jsonl",
+        "tests/suites/citation_required.jsonl",
+        "tests/suites/stage_fidelity_mwf.jsonl"
+      ]
+    }
+  ],
+  "integrity": {
+    "hash_source": "integrity.json",
+    "required": true
+  },
+  "notes": [
+    "All NPC responses must avoid guarantees/manipulation phrases and must use anchors/evidence when claims are made.",
+    "If a question is outside scope, respond with a safe redirect to quests or approved resources."
+  ]
+}
