@@ -1,0 +1,5 @@
+{
+  "id": "q001",
+  "expected_route": "policy_review_strict",
+  "min_policy_hits": 1
+}
