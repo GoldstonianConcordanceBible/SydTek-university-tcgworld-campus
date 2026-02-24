@@ -51,3 +51,11 @@ def find_policy_hits(text: str, policy_dir: Path) -> List[MatchHit]:
         for m in rx.finditer(text):
             hits.append(MatchHit(category=category, phrase=m.group(1), start=m.start(1), end=m.end(1)))
     return hits
+
+from typing import Any
+
+def load_phrase_lists(policy_dir: Path) -> Dict[str, List[str]]:
+    out: Dict[str, List[str]] = {}
+    for yml in policy_dir.glob("*.yml"):
+        out[yml.stem] = load_phrase_list(yml)
+    return out
