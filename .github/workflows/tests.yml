@@ -24,3 +24,7 @@ jobs:
       - name: Run tests
         run: |
           pytest -q
+
+      - name: Run fixture suite
+        run: |
+          python tests/run_fixture_suite.py
