@@ -1,0 +1,23 @@
+version: 1
+
+routes:
+  deck_help:
+    examples:
+      - "optimize my deck"
+      - "best combo for this archetype"
+      - "sideboard choices for this matchup"
+      - "help me mulligan better"
+
+  community_mod:
+    examples:
+      - "someone is harassing me"
+      - "how do I report a player"
+      - "ban appeal process"
+      - "toxicity in chat"
+
+  tcg_trading:
+    examples:
+      - "should i buy this card now"
+      - "price prediction for this card"
+      - "is this a good investment"
+      - "profit from flipping cards"
