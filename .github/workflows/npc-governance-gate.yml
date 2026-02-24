@@ -1,0 +1,43 @@
+name: NPC Governance Gate
+
+on:
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  governance-gate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Basic policy checks (no guarantee language)
+        run: |
+          set -e
+          echo "Scanning for prohibited guarantee language..."
+          ! grep -RniE "(guarantee|guaranteed income|will make you rich|10x|sure profit)" . || (echo "Found prohibited guarantee language." && exit 1)
+
+      - name: Basic policy checks (no fabrication prompts)
+        run: |
+          set -e
+          echo "Scanning for fabrication encouragement..."
+          ! grep -RniE "(make up citations|invent sources|fake citation|fabricate)" . || (echo "Found fabrication encouragement." && exit 1)
+
+      - name: Ensure required governance docs exist
+        run: |
+          test -f docs/06_compliance-disclosures.md
+          test -f docs/07_release-notes.md
+          test -f gcb/agents/NPC_TEST_HARNESS.md
+
+      - name: Ensure training curriculum exists (L1/L2/L3)
+        run: |
+          test -f gcb/agents/training/L1_foundations.md
+          test -f gcb/agents/training/L2_method_mastery.md
+          test -f gcb/agents/training/L3_governance_and_drift_resistance.md
+
+      - name: Ensure SBT schema exists
+        run: |
+          test -f onchain/sbt/mwf_sbt_metadata.schema.json
+
+      - name: Pass
+        run: echo "Governance Gate passed."
