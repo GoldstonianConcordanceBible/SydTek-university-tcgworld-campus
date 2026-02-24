@@ -1,4 +1,4 @@
-# The Mirror Water Fire Framework MWFF
+# The Mirror Water Fire Framework
 ## SydTek University Campus — TCG.world Implementation
 
 This repository contains the metaverse deployment framework for the Goldstonian Concordance Bible (GCB) within the SydTek University campus inside TCG.world.
