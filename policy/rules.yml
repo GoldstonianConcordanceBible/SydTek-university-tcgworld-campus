@@ -1,0 +1,19 @@
+version: 1
+
+routes:
+  policy_review:
+    description: "Escalate to policy-safe completion or human review."
+    severity: "medium"
+
+categories:
+  guarantees:
+    severity: "high"
+    action: "policy_review"
+
+  manipulation:
+    severity: "medium"
+    action: "policy_review"
+
+  compliance:
+    severity: "high"
+    action: "policy_review"
