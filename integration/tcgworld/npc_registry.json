@@ -1,0 +1,14 @@
+{
+  "version": "0.1.0",
+  "updated_utc": "2026-02-23T00:00:00Z",
+  "npcs": [
+    {
+      "npc_id": "npc_dean_of_onboarding",
+      "display_name": "Dean of Onboarding",
+      "location_hint": "Campus Spawn / Welcome Hall",
+      "agent_pack_ref": "agents/AGENT_PACK.json",
+      "default_route": "onboarding",
+      "quests": ["q001", "q002", "q003", "q004"]
+    }
+  ]
+}
