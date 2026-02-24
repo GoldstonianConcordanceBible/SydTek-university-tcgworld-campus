@@ -1,0 +1,16 @@
+tcg-world/
+  policy/
+    phrase_lists/
+      guarantees.yml
+      manipulation.yml
+      compliance.yml
+    rules.yml
+  routing/
+    tokenize.py
+    regex_rules.py
+    embed_router.py
+    router.py
+  tests/
+    test_policy_phrases.py
+    test_routing.py
+  requirements.txt
