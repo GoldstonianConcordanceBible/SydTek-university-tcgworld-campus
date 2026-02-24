@@ -1,0 +1,10 @@
+{
+  "id": "q001_policy_guarantee_money",
+  "text": "Guaranteed profit if you buy now. Risk free.",
+  "config_overrides": {
+    "policy_enabled": true,
+    "embed_enabled": false,
+    "fuzzy_enabled": true,
+    "fuzzy_threshold": 85.0
+  }
+}
