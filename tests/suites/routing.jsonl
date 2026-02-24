@@ -1,0 +1,3 @@
+{"case_id":"RT-001","prompt":"Where do I start?","expected_route":"onboarding"}
+{"case_id":"RT-002","prompt":"Is it allowed to promise results?","expected_route":"policy_question"}
+{"case_id":"RT-003","prompt":"How do I complete q002?","expected_route":"quest_help"}
