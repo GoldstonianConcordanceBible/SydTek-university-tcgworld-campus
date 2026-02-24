@@ -1,0 +1,31 @@
+{
+  "record_type": "correction_record",
+  "program_name": "GCB Campus in TCG.world",
+  "program_version": "v0.1.0",
+  "record_id": "corr_REPLACE_ME",
+  "created_at": "2026-02-23T00:00:00Z",
+  "subject": {
+    "subject_type": "npc_script|quest|placard|policy|rubric|metadata",
+    "subject_pointer": "repo://REPLACE_ME",
+    "subject_hash_before": "sha256:REPLACE_ME",
+    "subject_hash_after": "sha256:REPLACE_ME"
+  },
+  "reason": {
+    "reason_code": "CORR_MISSING_BOUNDARY",
+    "severity": "MEDIUM",
+    "description": "REPLACE_ME"
+  },
+  "evidence": [
+    {
+      "type": "issue_or_pr",
+      "pointer": "repo://REPLACE_ME",
+      "hash": "sha256:REPLACE_ME"
+    }
+  ],
+  "review": {
+    "reviewer_id": "maintainer:REPLACE_ME",
+    "decision": "APPLIED",
+    "signature": "0xREPLACE_ME",
+    "signed_at": "2026-02-23T00:00:00Z"
+  }
+}
