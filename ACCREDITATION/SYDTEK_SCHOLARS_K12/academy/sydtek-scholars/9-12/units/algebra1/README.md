@@ -30,3 +30,33 @@ This folder contains the full Algebra I unit files for SydTek Scholars.
 ## Quality Gates (Unit Minimums)
 Every unit includes objectives, lesson flow, formative checks, summative, accommodations, enrichment,
 parent notes, and recordkeeping.
+
+# Algebra I (SYD-912-MATHA-A1)
+
+## Core Files
+- COURSE_SYLLABUS.md
+- PACING_CALENDAR_36W.md
+- ASSESSMENT_PACK.md
+- PORTFOLIO_ARTIFACTS.md
+- RESOURCES.md
+
+## Unit Files
+Located in `unit-files/`:
+- SYD-912-MATHA-A1-001.md to SYD-912-MATHA-A1-012.md
+
+## Teacher Manual Scaffolds
+Located in `teacher-manual/` (templates + placeholders; no copyrighted content):
+- TM_SCOPE_SEQUENCE.md
+- TM_DAILY_LESSON_PLANS.md
+- TM_RETEACH_PLANS.md
+- TM_ENRICHMENT_PLANS.md
+- TM_TEST_BANK_PLACEHOLDER.md
+- TM_ANSWER_KEYS_PLACEHOLDER.md
+
+## Textbook Scaffolds
+Located in `textbooks/` (outlines for future creation):
+- Algebra-I-Student-Textbook-OUTLINE.md
+- Algebra-I-Workbook-OUTLINE.md
+- Algebra-I-Quizzes-OUTLINE.md
+- Algebra-I-Tests-OUTLINE.md
+- Algebra-I-Projects-OUTLINE.md
