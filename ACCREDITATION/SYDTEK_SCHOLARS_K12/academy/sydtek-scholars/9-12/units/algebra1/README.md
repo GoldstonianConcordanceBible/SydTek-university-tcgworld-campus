@@ -1,4 +1,3 @@
-# File: academy/sydtek-scholars/9-12/units/algebra1/README.md
 # Algebra I Units (SYD-912-MATHA-A1)
 
 This folder contains the full Algebra I unit files for SydTek Scholars.
