@@ -1,0 +1,19 @@
+{
+  "default_vertical": "sydtek_scholars",
+  "verticals": {
+    "sydtek_scholars": {
+      "label": "SydTek Scholars",
+      "description": "Flagship K–12 Judeo-Christian online homeschool vertical (Mirror → Water → Fire)",
+      "path": "academy/sydtek-scholars"
+    },
+    "abeka_inspired": {
+      "label": "Abeka-inspired (Non-affiliated)",
+      "description": "Pedagogy notes + optional mapping comparisons; no official affiliation",
+      "path": "academy/abeka-inspired"
+    }
+  },
+  "quality": {
+    "gates_path": "config/quality.gates.json",
+    "review_process_path": "governance/REVIEW_PROCESS.md"
+  }
+}
