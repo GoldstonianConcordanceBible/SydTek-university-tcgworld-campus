@@ -1,0 +1,21 @@
+{
+  "required_files": [
+    "legal/AFFILIATION_AND_TRADEMARKS.md",
+    "legal/COPYRIGHT_AND_CONTENT_POLICY.md",
+    "governance/CONTRIBUTING.md",
+    "governance/REVIEW_PROCESS.md"
+  ],
+  "unit_minimums": {
+    "unit_template_required": true,
+    "learning_objectives_required": true,
+    "assessment_required": true,
+    "accommodations_required": true,
+    "faith_integration_note_required": true,
+    "mirror_water_fire_mapping_required": true
+  },
+  "copyright_rules": {
+    "no_scans_or_copied_pages": true,
+    "no_answer_keys_from_external_publishers": true,
+    "summaries_must_be_non_substitutive": true
+  }
+}
