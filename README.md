@@ -26,6 +26,18 @@ This repository is institutionally affiliated with **SydTek University** for the
 
 Independence: SydTek University is an independent educational initiative. References to third-party platforms or technologies are for interoperability and research purposes only.
 
+# SydTek University – TCGWorld Campus
+
+**SydTek Scholars** is the flagship education ecosystem within the SydTek University Meta-Campus.  
+Our mission is to build the *leading future-readiness curriculum platform* that prepares learners for AI, blockchain, and emergent tech careers — with a competitive edge over traditional curricula.
+
+We respect Abeka’s legacy in Christian education and use its pedagogical strengths as inspiration, but **Abeka is NOT affiliated with SydTek Scholars or this project**.
+
+This repo powers:
+1. The **SydTek Scholars Curriculum Framework**
+2. TCGWorld integration layers
+3. Cross-vertical educational tooling
+4. Multi-platform meta-content delivery architecture
 ---
 
 ## Campus Purpose
