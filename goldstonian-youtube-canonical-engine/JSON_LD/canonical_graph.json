@@ -1,0 +1,12 @@
+{
+  "@context": "https://schema.org",
+  "@type": "CreativeWork",
+  "name": "Goldstonian Canonical Bible Structure",
+  "hasPart": [
+    {"@type": "CreativeWork", "name": "Genesis", "identifier": "GEN"},
+    {"@type": "CreativeWork", "name": "Exodus", "identifier": "EXO"},
+    {"@type": "CreativeWork", "name": "Matthew", "identifier": "MAT"},
+    {"@type": "CreativeWork", "name": "Romans", "identifier": "ROM"},
+    {"@type": "CreativeWork", "name": "Revelation", "identifier": "REV"}
+  ]
+}
