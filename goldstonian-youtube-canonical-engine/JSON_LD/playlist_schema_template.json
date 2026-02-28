@@ -1,0 +1,8 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "[PLAYLIST TITLE]",
+  "description": "Structured Bible study series within the Goldstonian Concordance Bible covering the Book of [BOOK].",
+  "numberOfItems": "[TOTAL_VIDEOS]",
+  "itemListOrder": "Ascending"
+}
