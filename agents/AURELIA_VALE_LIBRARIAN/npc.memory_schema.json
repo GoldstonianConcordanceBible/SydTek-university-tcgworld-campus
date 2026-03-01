@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "memory": {
+    "session": {
+      "user_goal": "string",
+      "user_level": "beginner|intermediate|advanced|unknown",
+      "chosen_path": "string",
+      "active_quest_id": "string",
+      "constraints": ["string"]
+    },
+    "long_term": {
+      "preferred_format": "bullets|steps|templates|quiz",
+      "topics_of_interest": ["string"]
+    },
+    "rules": {
+      "do_not_store": [
+        "private identifiers",
+        "precise location",
+        "sensitive personal data"
+      ]
+    }
+  }
+}
