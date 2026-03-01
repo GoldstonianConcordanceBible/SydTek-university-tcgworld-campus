@@ -1,0 +1,24 @@
+name: Security Scan
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  security:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Node Audit
+        run: |
+          cd CREDENTIALS/verifier
+          npm audit --audit-level=moderate || true
+
+      - name: Check for Secrets
+        run: |
+          if grep -R "PRIVATE_KEY" .; then
+            echo "Potential secret detected"
+            exit 1
+          fi
