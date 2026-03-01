@@ -1,0 +1,22 @@
+version: 1
+
+routing:
+
+  Theology:
+    primary: NPC_LIB_AURELIA_VALE
+    secondary: NPC_THEOLOGY_PROFESSOR
+
+  AI_Ethics:
+    primary: NPC_LIB_AURELIA_VALE
+    secondary: NPC_AI_ETHICS_PROFESSOR
+
+  Compliance:
+    primary: NPC_LIB_AURELIA_VALE
+    secondary: NPC_COMPLIANCE_OFFICER
+
+  Publishing:
+    primary: NPC_LIB_AURELIA_VALE
+    secondary: NPC_G_RUNE_DIRECTOR
+
+fallback:
+  - NPC_LIB_AURELIA_VALE
