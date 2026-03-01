@@ -1,9 +1,0 @@
-if (route.action === "OFFER_PREMIUM" && route.premium) {
-  // Example hook
-  if (route.premium[0].platform === "Claw Market") {
-    return {
-      marketplaceSkill: "aura-2-security-audit-toolkit",
-      installUrl: "https://claw-market.xyz/skills/aura-2-security-audit-toolkit"
-    };
-  }
-}
