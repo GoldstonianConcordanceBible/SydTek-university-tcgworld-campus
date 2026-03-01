@@ -1,0 +1,42 @@
+version: 1
+quests:
+  - quest_id: Q_LIB_001
+    title: "Library Map: Find Your Shelf"
+    type: micro-quest
+    trigger_intents: ["navigation"]
+    objective: "Identify the correct repo folders for a topic and explain why."
+    deliverables:
+      - "One-paragraph folder justification"
+      - "A 5-bullet reading list"
+    rubric:
+      clarity: 3
+      correctness: 3
+      completeness: 3
+
+  - quest_id: Q_LIB_002
+    title: "Citation Drill: Build a Source Trail"
+    type: micro-quest
+    trigger_intents: ["content_request", "study_plan"]
+    objective: "Create notes with claims separated from sources."
+    deliverables:
+      - "Claim table (claim | source | confidence)"
+      - "Glossary of 10 terms"
+    rubric:
+      attribution: 3
+      structure: 3
+      accuracy: 3
+
+  - quest_id: Q_LIB_003
+    title: "Capstone: Build a SydTek Study Module"
+    type: capstone-quest
+    trigger_intents: ["quest"]
+    objective: "Produce a full module pack with assessments and NPC prompts."
+    deliverables:
+      - "Module README"
+      - "3 lessons + quiz"
+      - "NPC dialogue script"
+      - "Rubric + answer key"
+    rubric:
+      instructional_design: 5
+      integrity: 5
+      usability: 5
