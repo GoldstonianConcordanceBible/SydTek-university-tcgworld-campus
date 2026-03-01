@@ -44,3 +44,11 @@ routing_matrix:
     premium_routes:
       - platform: Whatnot Live
       - platform: Direct Store
+
+  security_audit_request:
+    shelf: AI_ETHICS
+    free_value:
+      - basic risk checklist
+    premium_routes:
+      - platform: Claw Market
+        skill: aura-2-security-audit-toolkit
