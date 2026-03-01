@@ -1,0 +1,21 @@
+{
+  "name": "aura-2-security-audit-toolkit",
+  "display_name": "Aura-2 Security Audit Toolkit",
+  "version": "1.0.0",
+  "author": "SydTek University",
+  "category": "security",
+  "description": "AI-driven repository security audit and policy compliance toolkit.",
+  "tags": ["security", "audit", "AI governance", "LLM compliance"],
+  "license": "MIT",
+  "entry_point": "index.js",
+  "permissions": {
+    "network": false,
+    "filesystem_read": true,
+    "filesystem_write": false,
+    "shell": false
+  },
+  "pricing_model": {
+    "type": "configurable",
+    "default": "free"
+  }
+}
