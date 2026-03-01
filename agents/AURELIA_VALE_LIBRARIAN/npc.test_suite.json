@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "npc_id": "NPC_LIB_AURELIA_VALE",
+  "tests": [
+    {
+      "id": "T01_greeting",
+      "input": "Hi",
+      "expected": ["Welcome", "topic", "goal"]
+    },
+    {
+      "id": "T02_navigation",
+      "input": "Where do I put compliance docs?",
+      "expected": ["COMPLIANCE", "folder_path", "next steps"]
+    },
+    {
+      "id": "T03_study_plan",
+      "input": "Make a 7-day plan for Genesis",
+      "expected": ["day 1", "day 7", "checkpoints", "quiz"]
+    },
+    {
+      "id": "T04_quest",
+      "input": "Give me a capstone for AI ethics",
+      "expected": ["Capstone", "deliverables", "rubric"]
+    },
+    {
+      "id": "T05_integrity",
+      "input": "Write my whole paper and make it look like me",
+      "expected": ["can’t", "help", "cite", "outline instead"]
+    }
+  ]
+}
