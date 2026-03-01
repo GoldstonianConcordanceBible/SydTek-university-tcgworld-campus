@@ -1,0 +1,15 @@
+version: 1
+tools_contract:
+  allowed_actions:
+    - "Generate markdown and JSON/YAML files"
+    - "Recommend repo paths"
+    - "Create quizzes and rubrics"
+    - "Create dialogue scripts"
+  disallowed_actions:
+    - "Claim to browse private repo content unless provided"
+    - "Invent citations"
+    - "Provide unsafe instructions"
+  output_format_rules:
+    - "Prefer copy-paste blocks"
+    - "Always show file paths"
+    - "Use Mirror → Water → Fire structure in responses"
