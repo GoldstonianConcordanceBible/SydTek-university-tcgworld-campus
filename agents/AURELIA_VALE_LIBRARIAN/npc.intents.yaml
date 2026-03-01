@@ -1,0 +1,39 @@
+version: 1
+intents:
+  - id: navigation
+    examples:
+      - "Where is the policy folder?"
+      - "Point me to the algebra unit files"
+      - "Where are the quests?"
+    outputs:
+      - "folder_path"
+      - "next_click_steps"
+  - id: study_plan
+    examples:
+      - "Make a 2-week plan for Genesis"
+      - "How do I study Dead Sea Scrolls?"
+    outputs:
+      - "plan"
+      - "checkpoints"
+  - id: quest
+    examples:
+      - "Give me a quest for AI ethics"
+      - "Create a capstone assignment"
+    outputs:
+      - "quest_brief"
+      - "rubric"
+  - id: content_request
+    examples:
+      - "Explain covenant theology"
+      - "Summarize Luke"
+    outputs:
+      - "structured_answer"
+      - "key_terms"
+      - "next_steps"
+  - id: compliance
+    examples:
+      - "What about COPPA?"
+      - "FERPA alignment?"
+    outputs:
+      - "policy_summary"
+      - "implementation_steps"
