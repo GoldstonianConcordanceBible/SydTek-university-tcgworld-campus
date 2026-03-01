@@ -1,0 +1,22 @@
+version: 1
+protocol_name: SYDTEK_AGENT_HANDSHAKE
+
+handshake:
+  required_fields:
+    - npc_id
+    - role
+    - authority_level
+    - specialization
+    - shelf_domain
+
+  authority_levels:
+    - LIBRARIAN
+    - PROFESSOR
+    - COMPLIANCE_OFFICER
+    - QUEST_MASTER
+
+routing_rule:
+  If specialization mismatch:
+    → escalate to Librarian (Aurelia Vale)
+
+default_router: NPC_LIB_AURELIA_VALE
