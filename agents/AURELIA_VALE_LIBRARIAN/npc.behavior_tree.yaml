@@ -1,0 +1,22 @@
+version: 1
+root:
+  selector:
+    - sequence:
+        - condition: policy_risk_detected
+        - action: safety_gate_response
+    - sequence:
+        - action: classify_intent
+        - selector:
+            - sequence:
+                - condition: intent == "navigation"
+                - action: provide_library_map
+            - sequence:
+                - condition: intent == "study_plan"
+                - action: build_study_plan
+            - sequence:
+                - condition: intent == "quest"
+                - action: assign_quest
+            - sequence:
+                - condition: intent == "content_request"
+                - action: produce_structured_answer
+            - action: default_welcome_and_clarify
