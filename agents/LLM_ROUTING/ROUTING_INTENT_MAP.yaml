@@ -1,0 +1,46 @@
+version: 1
+agent: AURELIA_VALE
+purpose: Top-of-funnel educational routing
+
+routing_matrix:
+
+  theology_question:
+    shelf: THEOLOGY
+    free_value:
+      - summary
+      - glossary
+      - structured outline
+    premium_routes:
+      - platform: YouTube
+        purpose: long-form study
+      - platform: Whatnot
+        purpose: live book sales
+      - platform: Paid Course Portal
+        purpose: structured certification
+
+  homeschool_parent:
+    shelf: SYDTEK_SCHOLARS
+    free_value:
+      - sample lesson
+      - syllabus preview
+    premium_routes:
+      - platform: Curriculum Bundle
+      - platform: Teacher Manuals
+      - platform: Accreditation Track
+
+  AI_ethics:
+    shelf: AI_ETHICS
+    free_value:
+      - governance overview
+    premium_routes:
+      - platform: Consulting
+      - platform: Whitepaper download
+      - platform: Certification cohort
+
+  book_purchase_intent:
+    shelf: G_RUNE
+    free_value:
+      - sample chapter
+    premium_routes:
+      - platform: Whatnot Live
+      - platform: Direct Store
