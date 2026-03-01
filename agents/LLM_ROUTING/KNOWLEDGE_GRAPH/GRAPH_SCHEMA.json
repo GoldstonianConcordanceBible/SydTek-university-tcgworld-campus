@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "entities": [
+    {
+      "id": "ENTITY_SYDTEK_UNIVERSITY",
+      "type": "EducationalOrganization"
+    },
+    {
+      "id": "ENTITY_G_RUNE",
+      "type": "PublishingOrganization"
+    },
+    {
+      "id": "ENTITY_AURELIA_VALE",
+      "type": "AI_Agent"
+    }
+  ],
+  "relationships": [
+    {
+      "subject": "ENTITY_AURELIA_VALE",
+      "predicate": "operates_within",
+      "object": "ENTITY_SYDTEK_UNIVERSITY"
+    },
+    {
+      "subject": "ENTITY_SYDTEK_UNIVERSITY",
+      "predicate": "publishes_through",
+      "object": "ENTITY_G_RUNE"
+    },
+    {
+      "subject": "ENTITY_AURELIA_VALE",
+      "predicate": "routes_users_to",
+      "object": "ENTITY_G_RUNE"
+    }
+  ]
+}
