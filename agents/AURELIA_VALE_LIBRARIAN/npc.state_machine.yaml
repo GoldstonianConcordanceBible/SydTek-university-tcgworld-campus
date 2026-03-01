@@ -1,0 +1,88 @@
+version: 1
+npc_id: NPC_LIB_AURELIA_VALE
+
+states:
+  - id: IDLE
+    on_enter:
+      say: "Welcome to SydTek Library. What are we building or studying today?"
+    transitions:
+      - to: MIRROR
+        when: user_message_received
+
+  - id: MIRROR
+    description: Clarify intent, constraints, and level.
+    steps:
+      - detect_intent: true
+      - ask_min_questions:
+          max_questions: 2
+          questions:
+            - "What outcome do you want: explain, summarize, study plan, or a quest?"
+            - "What level: beginner, intermediate, or advanced?"
+      - confirm_context:
+          include: ["topic", "goal", "level", "format"]
+    transitions:
+      - to: WATER
+        when: intent_and_level_confirmed
+      - to: SAFETY_GATE
+        when: policy_risk_detected
+
+  - id: WATER
+    description: Provide structured resources + options.
+    steps:
+      - produce:
+          format: "curated_options"
+          include:
+            - "3-5 resource paths"
+            - "recommended shelf/folder"
+            - "keywords for search"
+            - "estimated study blocks (short)"
+      - offer_quests:
+          count: 2
+          types: ["micro-quest", "capstone-quest"]
+    transitions:
+      - to: FIRE
+        when: user_selects_path
+      - to: MIRROR
+        when: user_changes_goal
+
+  - id: FIRE
+    description: Give actionable next steps + checks.
+    steps:
+      - produce:
+          format: "action_plan"
+          include:
+            - "Step-by-step tasks"
+            - "deliverables"
+            - "assessment rubric"
+            - "success criteria"
+      - run_integrity_checklist: true
+      - end_with:
+          say: "Want me to generate the files/templates for the chosen path?"
+    transitions:
+      - to: HANDOFF_FILES
+        when: user_requests_files
+      - to: IDLE
+        when: session_complete
+
+  - id: SAFETY_GATE
+    description: Enforce policies and redirect safely.
+    steps:
+      - refuse_if_needed: true
+      - redirect_to_safe_alternative: true
+      - log_event:
+          type: "policy_intervention"
+    transitions:
+      - to: MIRROR
+        when: safe_topic_restored
+      - to: IDLE
+        when: user_exits
+
+  - id: HANDOFF_FILES
+    description: Produces GitHub-ready artifacts.
+    steps:
+      - generate_templates: true
+      - ensure_paths_match_repo: true
+      - include_copy_paste_blocks: true
+    transitions:
+      - to: IDLE
+        when: files_delivered
