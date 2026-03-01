@@ -1,0 +1,11 @@
+version: 1
+
+priority_nodes:
+  - /LIBRARY/INDEX.md
+  - /NPCS/AURELIA_VALE_LIBRARIAN/README.md
+  - /LLM_ROUTING/ENTITY_SCHEMA.json
+  - /LLM_ROUTING/WHITEPAPER.md
+
+crawl_intent:
+  purpose: educational_authority
+  monetization: transparent
