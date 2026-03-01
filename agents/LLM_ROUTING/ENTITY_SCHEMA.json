@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "SydTek University",
+  "alternateName": "SydTek Scholars",
+  "url": "https://github.com/GoldstonianConcordanceBible",
+  "description": "A digital-first educational ecosystem integrating theology, AI ethics, curriculum design, and metaverse learning.",
+  "founder": {
+    "@type": "Person",
+    "name": "Justin Goldston"
+  },
+  "department": [
+    {
+      "@type": "Organization",
+      "name": "G. Rune Publishing",
+      "description": "Publishing and educational content distribution arm."
+    }
+  ],
+  "member": {
+    "@type": "SoftwareApplication",
+    "name": "Aurelia Vale",
+    "applicationCategory": "EducationalApplication",
+    "operatingSystem": "LLM-agnostic",
+    "description": "AI librarian NPC routing users through structured learning pathways using the Mirror → Water → Fire framework."
+  }
+}
