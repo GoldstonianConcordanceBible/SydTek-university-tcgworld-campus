@@ -1,22 +1,21 @@
 # School of Biblical & Theological Studies
 
 ## Purpose
-Provides rigorous biblical literacy, theological analysis, historical context, and research methods for ministry, scholarship, and public understanding of Scripture.
+The School of Biblical & Theological Studies provides academically rigorous, faith-informed instruction in Scripture, theology, hermeneutics, and historical context. Programs are designed for online delivery with measurable outcomes, aligned assessments, and documented continuous improvement.
 
 ## Scope
-- Biblical studies, theology, hermeneutics, Second Temple literature, Dead Sea Scrolls studies
-- Credentials: certificates through graduate research tracks
-- Delivery: online, hybrid, MOOC-supported
+- Areas: biblical studies, hermeneutics, theology, Second Temple context, Dead Sea Scrolls literacy, research writing, and instructional communication
+- Credentials: Certificate + BA (with future MA/PhD pathways staged)
+- Delivery: Online / MOOC-supported with defined assessments and portfolio artifacts
 
-## Alignment to Institutional Mission
-- Strengthens ethical reasoning and foundational literacy
-- Develops research and communication competency
-- Supports community education and applied leadership
-
-## Distinctives
-- Method-centered hermeneutics curriculum
-- Research writing emphasis (publishable papers and indexing discipline)
-- Capstone options: exegesis portfolio, teaching practicum, research thesis
+## School Learning Outcomes (SLOs)
+SLO-1: Interpret biblical texts using a documented method with explicit reasoning and careful use of context.
+SLO-2: Demonstrate biblical literacy across Torah, Prophets, Gospels, and Epistles with accurate summary and synthesis.
+SLO-3: Evaluate theological claims using evidence, genre awareness, and responsible cross-referencing.
+SLO-4: Produce clear, structured theological writing with appropriate citation and academic integrity.
+SLO-5: Communicate biblical theology responsibly for teaching, ministry, and public discourse (audience-appropriate, non-sensational).
 
 ## Quality Assurance
-Follows institutional assessment cycle and rubric-based evaluation of exegesis, research writing, and oral instruction.
+The School follows the university assessment cycle:
+Outcomes → Measures → Data Review → Improvements → Documentation.
+See `/assessment/annual-assessment-report-template.md`.
