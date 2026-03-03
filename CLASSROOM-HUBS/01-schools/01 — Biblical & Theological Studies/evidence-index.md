@@ -1,20 +1,26 @@
 # Evidence Index — School of Biblical & Theological Studies
 
 ## Program Documents
-- Program handbook: ./programs/cert-biblical-studies-foundations/program-handbook.md
-- Program outcomes: ./programs/cert-biblical-studies-foundations/program-learning-outcomes.md
-- Curriculum map: ./programs/cert-biblical-studies-foundations/curriculum-map.md
-- Assessment plan: ./programs/cert-biblical-studies-foundations/assessment-plan.md
+- Certificate handbook: ./programs/cert-biblical-studies-foundations/program-handbook.md
+- BA handbook: ./programs/ba-biblical-theological-studies/program-handbook.md
+- Curriculum maps (cert + BA): ./programs/**/curriculum-map.md
+- Assessment plans (cert + BA): ./programs/**/assessment-plan.md
+- Capstone standards: ./programs/ba-biblical-theological-studies/capstone-standards.md
 
-## Course Evidence (Shells)
-- BTS-000: ./courses/course-shells/BTS-000-orientation/
-- BTS-101: ./courses/course-shells/BTS-101-gcb-method/
-- BTS-102: ./courses/course-shells/BTS-102-torah-foundations/
+## Course Shells
+- Course list: ./courses/course-list.md
+- Course shells: ./courses/course-shells/
 
 ## Assessment & Improvement
-- Annual assessment report template: ./assessment/annual-assessment-report-2026-template.md
+- Outcomes measures matrix: ./assessment/outcomes-measures-matrix.md
+- Annual assessment report template: ./assessment/annual-assessment-report-template.md
 
 ## Faculty
-- Roster template: ./faculty/faculty-roster-template.md
 - Qualification matrix: ./faculty/qualification-matrix.md
-- Dossiers folder: ./faculty/dossiers/ (create when ready)
+- Faculty roster template: ./faculty/faculty-roster-template.md
+- Faculty evaluation template: ./faculty/faculty-evaluation-template.md
+
+## Student Support
+- Advising & success: ./student-support/advising-and-success.md
+- Tutoring & writing: ./student-support/tutoring-and-writing-support.md
+- Library resources: ./student-support/library-learning-resources.md
