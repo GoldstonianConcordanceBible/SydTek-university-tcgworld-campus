@@ -10,9 +10,13 @@ The School of Biblical & Theological Studies provides academically rigorous, fai
 
 ## School Learning Outcomes (SLOs)
 SLO-1: Interpret biblical texts using a documented method with explicit reasoning and careful use of context.
+
 SLO-2: Demonstrate biblical literacy across Torah, Prophets, Gospels, and Epistles with accurate summary and synthesis.
+
 SLO-3: Evaluate theological claims using evidence, genre awareness, and responsible cross-referencing.
+
 SLO-4: Produce clear, structured theological writing with appropriate citation and academic integrity.
+
 SLO-5: Communicate biblical theology responsibly for teaching, ministry, and public discourse (audience-appropriate, non-sensational).
 
 ## Quality Assurance
