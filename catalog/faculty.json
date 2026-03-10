@@ -1,0 +1,47 @@
+{
+  "institution": "SydTek University",
+  "catalog_version": "1.0.0",
+  "last_updated": "2026-03-10",
+  "faculty": [
+    {
+      "faculty_id": "FAC-001",
+      "name": "Founder-Instructor",
+      "role": "founder_instructor",
+      "domain": "institutional_direction_and_flagship_content",
+      "verification_authority_level": "high",
+      "active_status": "active"
+    },
+    {
+      "faculty_id": "FAC-002",
+      "name": "Program Designer",
+      "role": "pathway_designer",
+      "domain": "curriculum_and_pathway_architecture",
+      "verification_authority_level": "medium",
+      "active_status": "active"
+    },
+    {
+      "faculty_id": "FAC-003",
+      "name": "Assessor",
+      "role": "assessor",
+      "domain": "learner_output_review_and_completion_verification",
+      "verification_authority_level": "high",
+      "active_status": "active"
+    },
+    {
+      "faculty_id": "FAC-004",
+      "name": "Academic Reviewer",
+      "role": "academic_reviewer",
+      "domain": "claims_integrity_and_program_consistency",
+      "verification_authority_level": "high",
+      "active_status": "active"
+    },
+    {
+      "faculty_id": "FAC-005",
+      "name": "Mentor",
+      "role": "mentor",
+      "domain": "learner_support_and_pathway_guidance",
+      "verification_authority_level": "low",
+      "active_status": "active"
+    }
+  ]
+}
