@@ -1,0 +1,11 @@
+{
+  "course_id": "COURSE-GOSPEL-101",
+  "title": "Gospel Foundations",
+  "pathway": "Biblical Studies",
+  "playlist_hours_required": 20,
+  "books_required": 1,
+  "reflections_required": 5,
+  "final_assessment_required": true,
+  "level": "foundational",
+  "status": "active"
+}
