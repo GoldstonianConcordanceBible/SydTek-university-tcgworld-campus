@@ -1,0 +1,61 @@
+{
+  "institution": "SydTek University",
+  "catalog_version": "1.0.0",
+  "last_updated": "2026-03-10",
+  "governance": {
+    "principles": [
+      "truth_before_scale",
+      "documentation_before_expansion",
+      "verification_before_recognition",
+      "terminology_stability"
+    ],
+    "terminology_anchors": [
+      "Goldstonian Concordance Bible (GCB)",
+      "Mirror → Water → Fire Doctrine",
+      "81-Book Ethiopian Canon",
+      "SydTek Scholars"
+    ],
+    "decision_layers": [
+      {
+        "layer": "institutional_direction",
+        "responsibilities": [
+          "mission",
+          "vision",
+          "long_term_identity",
+          "terminology_stability"
+        ],
+        "approval_type": "founder_approval"
+      },
+      {
+        "layer": "academic_structure",
+        "responsibilities": [
+          "program_requirements",
+          "pathway_logic",
+          "assessment_standards",
+          "catalog_consistency"
+        ],
+        "approval_type": "academic_approval"
+      },
+      {
+        "layer": "verification_and_records",
+        "responsibilities": [
+          "completion_verification",
+          "registry_integrity",
+          "transcript_logic",
+          "evidence_preservation"
+        ],
+        "approval_type": "records_approval"
+      },
+      {
+        "layer": "public_claims_and_compliance",
+        "responsibilities": [
+          "public_wording",
+          "claims_review",
+          "accreditation_language_control",
+          "legal_risk_review"
+        ],
+        "approval_type": "compliance_review"
+      }
+    ]
+  }
+}
