@@ -1,0 +1,24 @@
+{
+  "edges": [
+    {
+      "source": "Book of Isaiah",
+      "relationship": "describes",
+      "target": "Seraphim"
+    },
+    {
+      "source": "Book of Enoch",
+      "relationship": "describes",
+      "target": "Watchers"
+    },
+    {
+      "source": "Mirror Water Fire Doctrine",
+      "relationship": "interprets",
+      "target": "Biblical Canon"
+    },
+    {
+      "source": "SydTek University",
+      "relationship": "teaches",
+      "target": "Goldstonian Concordance Bible"
+    }
+  ]
+}
