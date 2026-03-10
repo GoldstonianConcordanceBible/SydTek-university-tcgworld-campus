@@ -1,0 +1,20 @@
+{
+  "document_id": "DOC-TRANSCRIPT-0001",
+  "institution": "SydTek University",
+  "document_type": "Transcript-Style Academic Record",
+  "learner_name": "Sample Learner",
+  "learner_id": "STU-0001",
+  "program_title": "Certificate in Gospel Foundations",
+  "program_id": "PROG-CERT-GOSPEL-001",
+  "issue_date": "2026-03-10",
+  "playlist_hours_completed": 40,
+  "books_completed": 2,
+  "reflections_completed": 8,
+  "projects_completed": 0,
+  "final_assessment_status": "passed",
+  "capstone_status": "not_applicable",
+  "thesis_title": "not_applicable",
+  "verified_by": "Assessor",
+  "completion_date": "2026-03-10",
+  "registry_reference": "STU-0001::PROG-CERT-GOSPEL-001"
+}
