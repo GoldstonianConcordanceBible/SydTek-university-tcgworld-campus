@@ -1,0 +1,12 @@
+{
+  "student_id": "STU-0001",
+  "name": "Sample Learner",
+  "pathway": "Certificate in Gospel Foundations",
+  "status": "in_progress",
+  "watch_hours_completed": 22.5,
+  "books_completed": 1,
+  "reflections_completed": 4,
+  "projects_completed": 0,
+  "assessor": "Faculty Reviewer A",
+  "last_updated": "2026-03-10"
+}
