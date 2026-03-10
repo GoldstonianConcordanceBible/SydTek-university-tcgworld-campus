@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Program Record",
+  "type": "object",
+  "required": [
+    "program_id",
+    "title",
+    "institution",
+    "track_type",
+    "playlist_hours_required",
+    "books_required",
+    "reflections_required",
+    "projects_required",
+    "final_assessment_required",
+    "public_claim_level",
+    "status",
+    "version",
+    "last_updated"
+  ],
+  "properties": {
+    "program_id": { "type": "string" },
+    "title": { "type": "string" },
+    "institution": { "type": "string" },
+    "track_type": { "type": "string" },
+    "playlist_hours_required": { "type": "number" },
+    "books_required": { "type": "integer" },
+    "reflections_required": { "type": "integer" },
+    "projects_required": { "type": "integer" },
+    "final_assessment_required": { "type": "boolean" },
+    "public_claim_level": { "type": "string" },
+    "status": { "type": "string" },
+    "version": { "type": "string" },
+    "last_updated": { "type": "string" }
+  }
+}
