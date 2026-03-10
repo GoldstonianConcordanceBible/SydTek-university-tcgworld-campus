@@ -1,0 +1,124 @@
+{
+  "institution": "SydTek University",
+  "catalog_version": "1.0.0",
+  "last_updated": "2026-03-10",
+  "programs": [
+    {
+      "program_id": "PROG-CERT-GOSPEL-001",
+      "title": "Certificate in Gospel Foundations",
+      "track_type": "certificate",
+      "learner_type": "adult_or_advanced",
+      "public_claim_level": "certificate_pathway",
+      "status": "active",
+      "requirements": {
+        "playlist_hours_required": 40,
+        "books_required": 2,
+        "reflections_required": 8,
+        "projects_required": 0,
+        "final_assessment_required": true
+      },
+      "pathway_ids": [
+        "PATH-GOSPEL-FOUNDATIONS-001"
+      ],
+      "faculty_roles": [
+        "founder_instructor",
+        "assessor"
+      ]
+    },
+    {
+      "program_id": "PROG-CERT-CANON-001",
+      "title": "Certificate in Canon Studies",
+      "track_type": "certificate",
+      "learner_type": "adult_or_advanced",
+      "public_claim_level": "certificate_pathway",
+      "status": "active",
+      "requirements": {
+        "playlist_hours_required": 50,
+        "books_required": 2,
+        "reflections_required": 6,
+        "projects_required": 1,
+        "final_assessment_required": true
+      },
+      "pathway_ids": [
+        "PATH-CANON-ORIENTATION-001"
+      ],
+      "faculty_roles": [
+        "pathway_designer",
+        "assessor"
+      ]
+    },
+    {
+      "program_id": "PROG-CERT-BIBPHIL-001",
+      "title": "Certificate in Biblical Philosophy",
+      "track_type": "certificate",
+      "learner_type": "adult_or_advanced",
+      "public_claim_level": "certificate_pathway",
+      "status": "active",
+      "requirements": {
+        "playlist_hours_required": 60,
+        "books_required": 3,
+        "reflections_required": 10,
+        "projects_required": 0,
+        "final_assessment_required": true
+      },
+      "pathway_ids": [
+        "PATH-BIBPHIL-FOUNDATIONS-001"
+      ],
+      "faculty_roles": [
+        "founder_instructor",
+        "academic_reviewer"
+      ]
+    },
+    {
+      "program_id": "PROG-ADV-GCB-001",
+      "title": "Advanced Certificate in GCB Interpretive Studies",
+      "track_type": "advanced_certificate",
+      "learner_type": "adult_or_advanced",
+      "public_claim_level": "advanced_certificate_pathway",
+      "status": "active",
+      "requirements": {
+        "playlist_hours_required": 90,
+        "books_required": 4,
+        "reflections_required": 12,
+        "projects_required": 1,
+        "final_assessment_required": true
+      },
+      "pathway_ids": [
+        "PATH-GCB-INTERPRETIVE-001"
+      ],
+      "faculty_roles": [
+        "founder_instructor",
+        "pathway_designer",
+        "assessor"
+      ]
+    },
+    {
+      "program_id": "PROG-BSTYLE-BIBCAN-001",
+      "title": "Bachelor-Style Pathway in Biblical Philosophy and Canon Studies",
+      "track_type": "advanced_independent_study_track",
+      "learner_type": "adult",
+      "public_claim_level": "advanced_independent_study_track",
+      "status": "active_framework",
+      "requirements": {
+        "playlist_hours_required": 1200,
+        "books_required": 18,
+        "reflections_required": 36,
+        "projects_required": 8,
+        "final_assessment_required": true,
+        "thesis_required": true
+      },
+      "pathway_ids": [
+        "PATH-DEGREE-LEVEL1-001",
+        "PATH-DEGREE-LEVEL2-001",
+        "PATH-DEGREE-LEVEL3-001",
+        "PATH-DEGREE-LEVEL4-001"
+      ],
+      "faculty_roles": [
+        "founder_instructor",
+        "pathway_designer",
+        "assessor",
+        "academic_reviewer"
+      ]
+    }
+  ]
+}
