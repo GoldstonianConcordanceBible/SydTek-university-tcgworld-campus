@@ -1,0 +1,256 @@
+{
+  "institution": "SydTek University",
+  "catalog_version": "1.0.0",
+  "last_updated": "2026-03-10",
+  "pathways": [
+    {
+      "pathway_id": "PATH-GOSPEL-FOUNDATIONS-001",
+      "title": "Gospel Foundations Pathway",
+      "level": "foundational",
+      "learner_type": "adult_or_advanced",
+      "program_id": "PROG-CERT-GOSPEL-001",
+      "entry_requirement": "open_enrollment",
+      "mirror_assets": [
+        "Gospel overview playlist",
+        "Matthew playlist cluster",
+        "Mark playlist cluster",
+        "Luke playlist cluster",
+        "John playlist cluster"
+      ],
+      "water_assets": [
+        "8 written reflections",
+        "guided notes",
+        "discussion prompts"
+      ],
+      "fire_assets": [
+        "final comparative response",
+        "final quiz"
+      ],
+      "book_requirements": [
+        "GCB Companion Volume I",
+        "Foundations reading guide"
+      ],
+      "verification_model": "assessor_review",
+      "next_step_pathways": [
+        "PATH-BIBPHIL-FOUNDATIONS-001"
+      ]
+    },
+    {
+      "pathway_id": "PATH-CANON-ORIENTATION-001",
+      "title": "Canon Orientation Pathway",
+      "level": "foundational",
+      "learner_type": "adult_or_advanced",
+      "program_id": "PROG-CERT-CANON-001",
+      "entry_requirement": "open_enrollment",
+      "mirror_assets": [
+        "81-Book Ethiopian Canon orientation playlist",
+        "Old Testament canon overview",
+        "New Testament canon overview"
+      ],
+      "water_assets": [
+        "canon notes",
+        "6 written reflections",
+        "comparison prompts"
+      ],
+      "fire_assets": [
+        "canon-mapping project",
+        "final assessment"
+      ],
+      "book_requirements": [
+        "Canon Orientation Guide",
+        "GCB Canon Companion"
+      ],
+      "verification_model": "assessor_review",
+      "next_step_pathways": [
+        "PATH-GCB-INTERPRETIVE-001"
+      ]
+    },
+    {
+      "pathway_id": "PATH-BIBPHIL-FOUNDATIONS-001",
+      "title": "Biblical Philosophy Foundations Pathway",
+      "level": "intermediate",
+      "learner_type": "adult_or_advanced",
+      "program_id": "PROG-CERT-BIBPHIL-001",
+      "entry_requirement": "foundational_readiness",
+      "mirror_assets": [
+        "Biblical philosophy playlist cluster",
+        "Wisdom and worship playlist cluster",
+        "Prophets and judgment playlist cluster"
+      ],
+      "water_assets": [
+        "10 written reflections",
+        "theme comparison notes",
+        "annotated reading responses"
+      ],
+      "fire_assets": [
+        "comparative essay",
+        "final synthesis response"
+      ],
+      "book_requirements": [
+        "Biblical Philosophy Companion",
+        "Wisdom Companion",
+        "Prophets Companion"
+      ],
+      "verification_model": "assessor_review",
+      "next_step_pathways": [
+        "PATH-GCB-INTERPRETIVE-001"
+      ]
+    },
+    {
+      "pathway_id": "PATH-GCB-INTERPRETIVE-001",
+      "title": "GCB Interpretive Studies Pathway",
+      "level": "advanced",
+      "learner_type": "adult",
+      "program_id": "PROG-ADV-GCB-001",
+      "entry_requirement": "intermediate_pathway_completion",
+      "mirror_assets": [
+        "GCB framework playlist",
+        "Mirror → Water → Fire Doctrine playlist",
+        "cross-textual synthesis playlist"
+      ],
+      "water_assets": [
+        "12 written reflections",
+        "concept maps",
+        "doctrine alignment notes"
+      ],
+      "fire_assets": [
+        "2 integrative essays",
+        "final interpretive project"
+      ],
+      "book_requirements": [
+        "GCB Foundations text",
+        "Doctrine Companion",
+        "Canon Companion",
+        "Interpretive Studies Guide"
+      ],
+      "verification_model": "assessor_review",
+      "next_step_pathways": [
+        "PATH-DEGREE-LEVEL1-001"
+      ]
+    },
+    {
+      "pathway_id": "PATH-DEGREE-LEVEL1-001",
+      "title": "Degree-Style Level I: Foundations",
+      "level": "foundational",
+      "learner_type": "adult",
+      "program_id": "PROG-BSTYLE-BIBCAN-001",
+      "entry_requirement": "admission_or_self_selection",
+      "mirror_assets": [
+        "canon orientation playlists",
+        "Gospel foundations playlists",
+        "Torah foundations playlists"
+      ],
+      "water_assets": [
+        "8 reflections",
+        "study journals",
+        "reading logs"
+      ],
+      "fire_assets": [
+        "2 projects"
+      ],
+      "book_requirements": [
+        "GCB Companion Volume I",
+        "Canon Orientation Guide",
+        "Torah Foundations Guide",
+        "Gospel Foundations Guide"
+      ],
+      "verification_model": "assessor_review",
+      "next_step_pathways": [
+        "PATH-DEGREE-LEVEL2-001"
+      ]
+    },
+    {
+      "pathway_id": "PATH-DEGREE-LEVEL2-001",
+      "title": "Degree-Style Level II: Interpretation",
+      "level": "intermediate",
+      "learner_type": "adult",
+      "program_id": "PROG-BSTYLE-BIBCAN-001",
+      "entry_requirement": "level1_completion",
+      "mirror_assets": [
+        "prophets playlists",
+        "wisdom playlists",
+        "Pauline theology playlists"
+      ],
+      "water_assets": [
+        "8 reflections",
+        "annotated comparisons",
+        "theme maps"
+      ],
+      "fire_assets": [
+        "2 projects"
+      ],
+      "book_requirements": [
+        "Wisdom Companion",
+        "Prophets Companion",
+        "Pauline Theology Guide",
+        "Interpretation Workbook"
+      ],
+      "verification_model": "assessor_review",
+      "next_step_pathways": [
+        "PATH-DEGREE-LEVEL3-001"
+      ]
+    },
+    {
+      "pathway_id": "PATH-DEGREE-LEVEL3-001",
+      "title": "Degree-Style Level III: Integration",
+      "level": "advanced",
+      "learner_type": "adult",
+      "program_id": "PROG-BSTYLE-BIBCAN-001",
+      "entry_requirement": "level2_completion",
+      "mirror_assets": [
+        "comparative canon playlists",
+        "theology playlists",
+        "GCB synthesis playlists"
+      ],
+      "water_assets": [
+        "8 reflections",
+        "concept integration notes",
+        "comparative reading responses"
+      ],
+      "fire_assets": [
+        "3 projects"
+      ],
+      "book_requirements": [
+        "Comparative Canon Guide",
+        "Doctrine Companion",
+        "GCB Synthesis Text",
+        "Advanced Theology Reader"
+      ],
+      "verification_model": "assessor_review",
+      "next_step_pathways": [
+        "PATH-DEGREE-LEVEL4-001"
+      ]
+    },
+    {
+      "pathway_id": "PATH-DEGREE-LEVEL4-001",
+      "title": "Degree-Style Level IV: Demonstration",
+      "level": "research",
+      "learner_type": "adult",
+      "program_id": "PROG-BSTYLE-BIBCAN-001",
+      "entry_requirement": "level3_completion",
+      "mirror_assets": [
+        "research seminar playlists",
+        "public scholarship playlists",
+        "thesis preparation playlists"
+      ],
+      "water_assets": [
+        "10 reflections",
+        "research notes",
+        "thesis outlines"
+      ],
+      "fire_assets": [
+        "3 projects",
+        "senior thesis",
+        "public teaching demonstration"
+      ],
+      "book_requirements": [
+        "Research Seminar Guide",
+        "Public Scholarship Manual",
+        "Thesis Handbook",
+        "Advanced GCB Reader"
+      ],
+      "verification_model": "assessor_plus_reviewer",
+      "next_step_pathways": []
+    }
+  ]
+}
