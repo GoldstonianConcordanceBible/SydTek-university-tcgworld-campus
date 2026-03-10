@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Transcript Style Record",
+  "type": "object",
+  "required": [
+    "document_id",
+    "institution",
+    "document_type",
+    "learner_name",
+    "learner_id",
+    "program_title",
+    "program_id",
+    "issue_date",
+    "playlist_hours_completed",
+    "books_completed",
+    "reflections_completed",
+    "projects_completed",
+    "verified_by",
+    "completion_date"
+  ],
+  "properties": {
+    "document_id": { "type": "string" },
+    "institution": { "type": "string" },
+    "document_type": { "type": "string" },
+    "learner_name": { "type": "string" },
+    "learner_id": { "type": "string" },
+    "program_title": { "type": "string" },
+    "program_id": { "type": "string" },
+    "issue_date": { "type": "string" },
+    "playlist_hours_completed": { "type": "number" },
+    "books_completed": { "type": "integer" },
+    "reflections_completed": { "type": "integer" },
+    "projects_completed": { "type": "integer" },
+    "final_assessment_status": { "type": "string" },
+    "capstone_status": { "type": "string" },
+    "thesis_title": { "type": "string" },
+    "verified_by": { "type": "string" },
+    "completion_date": { "type": "string" },
+    "registry_reference": { "type": "string" }
+  }
+}
