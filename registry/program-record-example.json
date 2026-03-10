@@ -1,0 +1,15 @@
+{
+  "program_id": "PROG-CERT-GOSPEL-001",
+  "title": "Certificate in Gospel Foundations",
+  "institution": "SydTek University",
+  "track_type": "certificate",
+  "playlist_hours_required": 40,
+  "books_required": 2,
+  "reflections_required": 8,
+  "projects_required": 0,
+  "final_assessment_required": true,
+  "public_claim_level": "certificate_pathway",
+  "status": "active",
+  "version": "1.0.0",
+  "last_updated": "2026-03-10"
+}
