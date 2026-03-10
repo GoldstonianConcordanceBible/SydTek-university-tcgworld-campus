@@ -1,0 +1,33 @@
+{
+  "entity_group": "doctrines",
+  "entities": [
+    {
+      "entity_id": "DOCTRINE-MWF",
+      "name": "Mirror Water Fire Doctrine",
+      "type": "doctrine",
+      "description": "Interpretive framework used in the Goldstonian Concordance Bible ecosystem.",
+      "relationships": [
+        {
+          "relation": "interprets",
+          "target": "Biblical Texts"
+        },
+        {
+          "relation": "used_by",
+          "target": "SydTek University"
+        }
+      ]
+    },
+    {
+      "entity_id": "DOCTRINE-MONOTHEISM",
+      "name": "Monotheism",
+      "type": "theological_doctrine",
+      "description": "Belief in one God central to biblical theology.",
+      "relationships": [
+        {
+          "relation": "appears_in",
+          "target": "Torah"
+        }
+      ]
+    }
+  ]
+}
