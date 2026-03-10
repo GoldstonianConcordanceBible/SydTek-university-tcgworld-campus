@@ -1,0 +1,7 @@
+{
+  "student_id": "string",
+  "name": "string",
+  "watch_hours_completed": "number",
+  "books_completed": "number",
+  "reflections_completed": "number"
+}
