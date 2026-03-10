@@ -1,0 +1,53 @@
+{
+  "entity_group": "angelic_beings",
+  "entities": [
+    {
+      "entity_id": "ANGEL-SERAPHIM",
+      "name": "Seraphim",
+      "type": "angelic_being",
+      "description": "Fiery angelic beings described in Isaiah as attendants of the divine throne.",
+      "relationships": [
+        {
+          "relation": "appears_in",
+          "target": "Book of Isaiah"
+        },
+        {
+          "relation": "category",
+          "target": "Angelology"
+        }
+      ]
+    },
+    {
+      "entity_id": "ANGEL-CHERUBIM",
+      "name": "Cherubim",
+      "type": "angelic_being",
+      "description": "Guardians of sacred space in biblical literature.",
+      "relationships": [
+        {
+          "relation": "appears_in",
+          "target": "Genesis"
+        },
+        {
+          "relation": "category",
+          "target": "Angelology"
+        }
+      ]
+    },
+    {
+      "entity_id": "ANGEL-WATCHERS",
+      "name": "Watchers",
+      "type": "angelic_being",
+      "description": "Angelic beings described in the Book of Enoch who descended to earth.",
+      "relationships": [
+        {
+          "relation": "appears_in",
+          "target": "Book of Enoch"
+        },
+        {
+          "relation": "category",
+          "target": "Angelology"
+        }
+      ]
+    }
+  ]
+}
