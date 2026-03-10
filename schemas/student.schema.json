@@ -1,7 +1,28 @@
 {
-  "student_id": "string",
-  "name": "string",
-  "watch_hours_completed": "number",
-  "books_completed": "number",
-  "reflections_completed": "number"
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Student Record",
+  "type": "object",
+  "required": [
+    "student_id",
+    "name",
+    "pathway",
+    "status",
+    "watch_hours_completed",
+    "books_completed",
+    "reflections_completed",
+    "projects_completed",
+    "last_updated"
+  ],
+  "properties": {
+    "student_id": { "type": "string" },
+    "name": { "type": "string" },
+    "pathway": { "type": "string" },
+    "status": { "type": "string" },
+    "watch_hours_completed": { "type": "number" },
+    "books_completed": { "type": "integer" },
+    "reflections_completed": { "type": "integer" },
+    "projects_completed": { "type": "integer" },
+    "assessor": { "type": "string" },
+    "last_updated": { "type": "string" }
+  }
 }
